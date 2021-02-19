@@ -14,7 +14,6 @@
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenuBar>
 #include <QtWidgets/QStatusBar>
-#include <QtWidgets/QTextEdit>
 #include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
@@ -23,7 +22,6 @@ class Ui_MainWindow
 {
 public:
     QWidget *centralwidget;
-    QTextEdit *textEdit;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -34,13 +32,10 @@ public:
         MainWindow->resize(1101, 693);
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
-        textEdit = new QTextEdit(centralwidget);
-        textEdit->setObjectName(QString::fromUtf8("textEdit"));
-        textEdit->setGeometry(QRect(10, 0, 1061, 631));
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName(QString::fromUtf8("menubar"));
-        menubar->setGeometry(QRect(0, 0, 1101, 22));
+        menubar->setGeometry(QRect(0, 0, 1101, 23));
         MainWindow->setMenuBar(menubar);
         statusbar = new QStatusBar(MainWindow);
         statusbar->setObjectName(QString::fromUtf8("statusbar"));
