@@ -25,10 +25,7 @@ public slots:
     void showOut();
 private:
     Ui::MainWindow *ui;
-    QVBoxLayout* vLayout;
-    QTextEdit* textEdit;
     QProcess* process;
-     QWidget * widget;
-     QTableWidget* processTable;
+    QTableWidget* processTable;
 };
 #endif // MAINWINDOW_H

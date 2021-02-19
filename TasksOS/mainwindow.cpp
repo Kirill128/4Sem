@@ -6,10 +6,8 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-    widget=new QWidget();
     process=new QProcess(this);
-    vLayout=new QVBoxLayout(this);
-   // textEdit=new QTextEdit();
+
 
     connect(process,SIGNAL(readyReadStandardOutput()),this,SLOT(showOut()));
     process->start("ps",QStringList{"-e","--format","uname pid %mem pri lwp nlwp cmd"});
@@ -31,11 +29,15 @@ QTableWidget* MainWindow::makeProcessTable(QStringList source,QStringList collum
 
     QStringListIterator rowIterator(source);
     QString rowString;
+
     table->setHorizontalHeaderLabels(collumnNames);
     for(int i=0;i<rows;i++){
         rowString=rowIterator.next();
-        QStringList list=rowString.split(' ');
-        QStringListIterator collumnIterator(list);
+        QStringList rowList=rowString.split(' ',Qt::SkipEmptyParts);
+        while(rowList.count()>collumns){
+            rowList.removeLast();
+        }
+        QStringListIterator collumnIterator(rowList);
         for(int j=0;j<collumns;j++){
             QTableWidgetItem* item=new QTableWidgetItem(collumnIterator.next());
             table->setItem(i,j,item);
@@ -46,16 +48,12 @@ QTableWidget* MainWindow::makeProcessTable(QStringList source,QStringList collum
 void MainWindow::showOut(){
     //this->textEdit->append(process->readAllStandardOutput());
 
-    this->processTable=makeProcessTable(QString(process->readAllStandardOutput()).split('\n'),QStringList{"uname", "pid", "%mem", "pri", "lwp", "nlwp", "cmd"});
+//    this->processTable=makeProcessTable(QString(process->readAllStandardOutput()).split('\n'),QStringList{"uname", "pid", "%mem", "pri", "lwp", "nlwp", "cmd"});
 
     //this->processTable=MainWindow::makeProcessTable(QStringList{"first second","second first"},QStringList{"name","demo"});
-
-//    this->vLayout->addWidget(processTable);
-//    this->widget->setLayout(vLayout);
-//    this->widget->show();
-
-    this->setCentralWidget(processTable);
-
+    QStringList rows=QString(process->readAllStandardOutput()).split('\n');
+    this->processTable=makeProcessTable(rows,QStringList{"uname", "pid", "%mem", "pri", "lwp", "nlwp", "cmd"});
+    this->setCentralWidget(this->processTable);
 
 }
 
