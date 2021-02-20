@@ -20,13 +20,13 @@ public:
     ~MainWindow();
     QProcess *getProcess() const;
     void setProcess(QProcess *value);
-    void makeProcessTable(QStringList source,QStringList collumnNames,QTableWidget* table);
+    void makeProcessTable(QList<QStringList> source,QStringList collumnNames,QTableWidget* table);
 public slots:
     void showOut();
 private:
     Ui::MainWindow *ui;
     QProcess* process;
     QTableWidget* processTable;
-    bool was;
+
 };
 #endif // MAINWINDOW_H

@@ -1,4 +1,4 @@
-#include "mainwindow.h"
+﻿#include "mainwindow.h"
 #include "ui_mainwindow.h"
 
 MainWindow::MainWindow(QWidget *parent)
@@ -9,7 +9,6 @@ MainWindow::MainWindow(QWidget *parent)
     process=new QProcess(this);
     processTable=new QTableWidget(0,0,this);
 
-    was=false;
 
     connect(process,SIGNAL(readyReadStandardOutput()),this,SLOT(showOut()));
     process->start("ps",QStringList{"-eL","--format","uname pid %mem pri lwp nlwp cmd"});
@@ -24,30 +23,10 @@ MainWindow::~MainWindow()
     delete this->processTable;
     delete ui;
 }
-void MainWindow::makeProcessTable(QStringList source,QStringList collumnNames,QTableWidget* table){
-    const int rows=source.count()+table->rowCount();
-    const int collumns=collumnNames.count();
-    int table_row=table->rowCount();
-    if(table->columnCount()!=collumns){
-        table->setColumnCount(collumns);
-        table->setHorizontalHeaderLabels(collumnNames);
-    }
-    table->setRowCount(rows);
 
-    QStringListIterator rowIterator(source);
-    QString rowString;
-
-    for(int i=table_row;i<rows;i++){
-        rowString=rowIterator.next();
-        QStringList rowList=rowString.split(' ',Qt::SkipEmptyParts);
-        while(rowList.count()>collumns){
-            rowList.removeLast();
-        }
-        QStringListIterator collumnIterator(rowList);
-        for(int j=0;j<rowList.count();j++){
-            QTableWidgetItem* item=new QTableWidgetItem(collumnIterator.next());
-            table->setItem(i,j,item);
-        }
+void removeSuperflous(QStringList *source,int maxLength){
+    while(source->count()>maxLength){
+        source->removeLast();
     }
 }
 QList<QStringList>* parse(QStringList source){
@@ -60,37 +39,72 @@ QList<QStringList>* parse(QStringList source){
     for(int i=0;i<rows;i++){
         rowString=rowIterator.next();
         resultRows->append(rowString.split(' ',Qt::SkipEmptyParts));
+        removeSuperflous(&resultRows->last(),7);
     }
     return resultRows;
 }
 
-void remakeForTreat(QList<QStringList> *source){
-    QListIterator<QStringList> rowIterator(*source);
-    rowIterator.next();
-    QStringList row;
-    bool sameProcess=false;
+void processThread(QList<QStringList> *source){
+    QMutableListIterator<QStringList> rowIterator(*source);
+
+    QStringList *firstUniqueThreadRow= &rowIterator.next();//1-st item
+    QStringList *nextRow;
+
+    QString res=firstUniqueThreadRow->at(4)+" "+firstUniqueThreadRow->at(3)+"\n";
     while(rowIterator.hasNext()){
-        row=rowIterator.next();
-
+        nextRow=&rowIterator.next();
+        if(!QString::compare(firstUniqueThreadRow->at(1),nextRow->at(1))){
+            res+=nextRow->at(4)+" "+nextRow->at(3)+"\n";//light wage process id + priority
+            rowIterator.remove();
+        }else{
+            firstUniqueThreadRow->append(res);
+            firstUniqueThreadRow=nextRow;
+            res=firstUniqueThreadRow->at(4)+" "+firstUniqueThreadRow->at(3)+"\n";
+         }
     }
+
 }
+void MainWindow::makeProcessTable(QList<QStringList> source,QStringList collumnNames,QTableWidget* table){
 
+        const int rows=source.count()+table->rowCount();
+        const int collumns=collumnNames.count();
+        int table_row=table->rowCount();
+        if(table->columnCount()!=collumns){
+            table->setColumnCount(collumns);
+            table->setHorizontalHeaderLabels(collumnNames);
+            table->setColumnWidth(6,200);
+            table->setColumnWidth(7,200);
+
+        }
+        table->setRowCount(rows);
+
+        QListIterator<QStringList> rowIterator(source);
+
+        for(int i=table_row;i<rows;i++){
+            QStringList row=rowIterator.next();
+            QStringListIterator collumnIterator(row);
+
+                for(int j=0;j<row.count();j++){
+                    QTableWidgetItem* item=new QTableWidgetItem(collumnIterator.next());
+                    table->setItem(i,j,item);
+
+                }
+                table->setRowHeight(i,100);
+         }
+
+
+}
 void MainWindow::showOut(){
-    //this->textEdit->append(process->readAllStandardOutput());
 
-//    this->processTable=makeProcessTable(QString(process->readAllStandardOutput()).split('\n'),QStringList{"uname", "pid", "%mem", "pri", "lwp", "nlwp", "cmd"});
-
-    //this->processTable=MainWindow::makeProcessTable(QStringList{"first second","second first"},QStringList{"name","demo"});
-    //if(!was){
         QStringList rows=QString(process->readAllStandardOutput()).split('\n');
         rows.removeFirst();
         rows.removeLast();
-
-        makeProcessTable(rows,QStringList{"uname", "process id", "%mem", "priority", "light wage pr", "num lwp", "cmd"},this->processTable);
-
+        QList<QStringList>* res(parse(rows));
+        processThread(res);
+//        qDebug()<<*res;
+        makeProcessTable(*res,QStringList{"uname", "process id", "%mem", "priority", "main thread id", "count threads", "cmd","threat id and priority"},this->processTable);
         this->setCentralWidget(this->processTable);
-        was=true;
-    //}
+        delete res;
 }
 
 QProcess *MainWindow::getProcess() const
