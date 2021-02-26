@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="26edaaf0-6650-4d9c-be6e-ab83bf4a217b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../OOp/1/api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOp/1/fileworker/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOp/1/gui/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOp/1/main/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOp/1/main/src/main/java/eu/grsu/map/application/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOp/1/main/src/main/java/eu/grsu/map/lines/Line.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOp/1/main/src/main/java/eu/grsu/map/points/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOp/1/main/src/main/java/eu/grsu/map/states/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOp/1/main/src/main/java/eu/grsu/map/twits/Twit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../build-TasksOS-Desktop_Qt_6_0_1_GCC_64bit-Debug/TasksOS" beforeDir="false" afterPath="$PROJECT_DIR$/../../build-TasksOS-Desktop_Qt_6_0_1_GCC_64bit-Debug/TasksOS" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../build-TasksOS-Desktop_Qt_6_0_1_GCC_64bit-Debug/moc_mainwindow.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../build-TasksOS-Desktop_Qt_6_0_1_GCC_64bit-Debug/moc_mainwindow.o" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1p0c7AWYJNBPLEhT47NThoZNi3N" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../OOp/1" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="26edaaf0-6650-4d9c-be6e-ab83bf4a217b" name="Default Changelist" comment="" />
+      <created>1614323279496</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614323279496</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

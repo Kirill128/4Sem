@@ -1,0 +1,40 @@
+
+G
+java:S1128"*Remove this unused import 'lombok.Getter'.(ùÒµÙ8ù€§¾ı.
+j	java:S100:"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åŠ”Ì8†Ò¾ı.
+m	java:S117*"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖÊ”²8†Ò¾ı.
+p
+java:S1104G"SMake start_y a static final constant or non-public and provide accessors if needed.(–¶Ü8íÆÑ¾ı.
+j	java:S100Y"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Çÿºæ8ñç½ı.
+m	java:S116F"RRename this field "start_x" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÅæøO8íÆÑ¾ı.
+l
+java:S1104D"OMake num a static final constant or non-public and provide accessors if needed.(æßÜÈ8÷¤Ì¾ı.
+^
+java:S1126["AReplace this if-then-else statement by a single return statement.(Á‚æ„8ñç½ı.
+o
+java:S1104A"MMake Y a static final constant or non-public and provide accessors if needed.(½ğşøúÿÿÿÿ8ñç½ı.
+m	java:S117c"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖÙ¹¿8ñç½ı.
+o	java:S100."NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ø²ğ¿üÿÿÿÿ8ÍëÔ¾ı.
+G
+java:S1128"*Remove this unused import 'lombok.Setter'.(ó¸çµ8ù€§¾ı.
+m	java:S1176"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñ—Ğö8†Ò¾ı.
+o
+java:S1104F"SMake start_x a static final constant or non-public and provide accessors if needed.(ÅæøO8íÆÑ¾ı.
+m	java:S116A"LRename this field "Y" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½ğşøúÿÿÿÿ8ñç½ı.
+j	java:S100*"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖÊ”²8†Ò¾ı.
+H
+java:S1168t"+Return an empty collection instead of null.(—»×8ñç½ı.
+j	java:S100a"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½Ñö’8ñç½ı.
+o	java:S100&"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ã€ÏŠşÿÿÿÿ8†Ò¾ı.
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¾Êï
+j
+java:S1104@"MMake X a static final constant or non-public and provide accessors if needed.(™šÀ„8ñç½ı.
+n	java:S116G"RRename this field "start_y" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–¶Ü8íÆÑ¾ı.
+h	java:S116@"LRename this field "X" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™šÀ„8ñç½ı.
+o
+java:S1104C"MMake S a static final constant or non-public and provide accessors if needed.(ÃæÒıüÿÿÿÿ8ñç½ı.
+j	java:S1006"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñ—Ğö8†Ò¾ı.
+m	java:S116C"LRename this field "S" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÃæÒıüÿÿÿÿ8ñç½ı.
+o	java:S1002"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©²ãêüÿÿÿÿ8†Ò¾ı.
+r	java:S117P"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µá‘Øıÿÿÿÿ8íÙ›¿ı.
+r	java:S117P"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µá‘Øıÿÿÿÿ8íÙ›¿ı.
