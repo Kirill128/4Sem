@@ -1,5 +1,6 @@
 package eu.grsu.platform.ships;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import eu.grsu.platform.api.WaterWorkable;
@@ -15,6 +16,7 @@ public class Ship implements WaterWorkable {
 	private String name;
 	
 	public Ship(ShipDeck desk1,ShipDeck desk2,String name) {
+		this.shipDecks=new ArrayList<>();
 		this.shipDecks.add(desk1);
 		this.shipDecks.add(desk2);
 		this.name=name;

@@ -29,7 +29,7 @@ public class Application {
 			
 			switch(inputInt()) {
 				case 1:{
-					System.out.printf("Water Volume: "+port.getWaterInPort());
+					System.out.println("Water Volume: "+port.getWaterInPort());
 				}
 				break;
 				case 2:{
@@ -120,8 +120,9 @@ public class Application {
 	}
 	
 	public static int inputInt() {
+		Scanner scan = new Scanner(System.in);
 		while(true) {
-			try(Scanner scan = new Scanner(System.in)){
+			try{
 				int a=scan.nextInt();
 				return a;
 			}
@@ -131,8 +132,9 @@ public class Application {
 		}
 	}
 	public static String inputString() {
-		try(Scanner scan = new Scanner(System.in)){
-			return scan.next();
-		}
+		Scanner scan = new Scanner(System.in);
+		String a=scan.next();
+		return a;
+		
 	}
 }

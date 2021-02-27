@@ -17,8 +17,8 @@ public class Port {
 	
 	public Port(List<Ship> ships) {
 		this.ships=new ArrayList<Ship>();
-		for(int i=0;i<MAX_SHIPS_IN_PORT;i++) {
-			this.ships.add(ships.get(i));
+		for(int i=0;i<MAX_SHIPS_IN_PORT && i<ships.size();i++) {
+			this.add(ships.get(i));
 		}
 	}
 	public Port() {
