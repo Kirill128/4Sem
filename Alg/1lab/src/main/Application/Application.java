@@ -8,7 +8,7 @@ public class Application {
     public static void main(String[] args) {
         List<Rectangle> rectInfo=new ArrayList<Rectangle>();
 
-        Rectangle R = new Rectangle(6, 8,0);                // создаем большой прямоугольник R в который будем пытаться складывать маленькие
+        Rectangle R = new Rectangle(6, 7,0);                // создаем большой прямоугольник R в который будем пытаться складывать маленькие
 
         List<Rectangle> r = new ArrayList<Rectangle>();        // создаем массив маленьких прямоугольников r
         r.add(new Rectangle(3, 3,1,0,0));                  // и заполняем...
@@ -23,9 +23,18 @@ public class Application {
         });   // сортируем по убыванию площади
         r.stream().forEach((a)->rectInfo.add(a));
         rectInfo.stream().forEach(System.out::println);
-        System.out.printf(Test(R,r,rectInfo,0,0)?"Yes":"No");
+        System.out.printf(Test(R,r)?"Yes":"No");
         System.out.println("");
         rectInfo.stream().forEach(System.out::println);
+
+    }
+
+    public static boolean Test(Rectangle R, List<Rectangle> r)  // функция проверяет можно ли составить большой прямоугольник R из маленьких r
+    {
+        Rectangle currentRect=r.get(0);
+
+        if()
+        //----------------------------
 
     }
 

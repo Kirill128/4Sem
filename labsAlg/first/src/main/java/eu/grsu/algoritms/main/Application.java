@@ -1,36 +1,65 @@
 package eu.grsu.algoritms.main;
 
 import eu.grsu.algoritms.api.IInsideRect;
-import eu.grsu.algoritms.api.IRectangle;
-import eu.grsu.algoritms.rectangles.Rectangle;
+import eu.grsu.algoritms.rectangles.BigRectangle;
+import eu.grsu.algoritms.rectangles.LowRectangle;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class Application {
     public static void main(String[] args) {
-        IRectangle bigRectangle=new Rectangle(12,6);
-        List<Rectangle> rectangleList=Application.getInitial();
+        BigRectangle bigLowRectangle=new BigRectangle(6,7);
+//        BigRectangle bigLowRectangle=new BigRectangle(24,26);
 
-        boolean result = bigRectangle.canConsistOf(rectangleList,new IInsideRect() {
-            @Override
-            public boolean insideRect() {
+        List<LowRectangle> lowRectangleList=Application.getInitial();
 
-                return false;
-            }
-        });
-        System.out.printf("Answer:"+result);
+        System.out.println("Answer:"+bigLowRectangle.canConsistOf(lowRectangleList));
+        lowRectangleList.stream().forEach(System.out::println);
     }
 
-    public static List<Rectangle> getInitial(){
-        List<Rectangle> rectangleList=new ArrayList<Rectangle>();
-        rectangleList.add(new Rectangle(2,6));
-        rectangleList.add(new Rectangle(5,2));
-        rectangleList.add(new Rectangle(5,3));
-        rectangleList.add(new Rectangle(5,3));
-        rectangleList.add(new Rectangle(5,2));
-        rectangleList.add(new Rectangle(3,2));
-        rectangleList.add(new Rectangle(2,2));
-        return rectangleList;
+    public static List<LowRectangle> getInitial(){
+        List<LowRectangle> lowRectangleList=new ArrayList<LowRectangle>();
+//        lowRectangleList.add(new LowRectangle(3,2));
+//        lowRectangleList.add(new LowRectangle(3,3));
+//        lowRectangleList.add(new LowRectangle(3,5));
+//        lowRectangleList.add(new LowRectangle(6,2));
+
+          lowRectangleList.add(new LowRectangle(3,5));
+          lowRectangleList.add(new LowRectangle(1,3));
+          lowRectangleList.add(new LowRectangle(5,2));
+          lowRectangleList.add(new LowRectangle(5,1));
+          lowRectangleList.add(new LowRectangle(3,2));
+          lowRectangleList.add(new LowRectangle(3,3));
+
+//        lowRectangleList.add(new LowRectangle(5,6));
+//        lowRectangleList.add(new LowRectangle(5,9));
+//        lowRectangleList.add(new LowRectangle(9,11));
+//        lowRectangleList.add(new LowRectangle(4,5));
+//        lowRectangleList.add(new LowRectangle(11,5));
+//        lowRectangleList.add(new LowRectangle(3,4));
+//        lowRectangleList.add(new LowRectangle(4,5));
+//        lowRectangleList.add(new LowRectangle(4,10));
+//        lowRectangleList.add(new LowRectangle(3,11));
+//        lowRectangleList.add(new LowRectangle(5,12));
+//        lowRectangleList.add(new LowRectangle(4,4));
+//        lowRectangleList.add(new LowRectangle(3,4));
+//        lowRectangleList.add(new LowRectangle(4,4));
+//        lowRectangleList.add(new LowRectangle(3,4));
+//        lowRectangleList.add(new LowRectangle(7,4));
+//        lowRectangleList.add(new LowRectangle(4,9));
+//        lowRectangleList.add(new LowRectangle(3,6));
+//        lowRectangleList.add(new LowRectangle(2,9));
+//        lowRectangleList.add(new LowRectangle(5,2));
+//        lowRectangleList.add(new LowRectangle(5,1));
+//        lowRectangleList.add(new LowRectangle(1,6));
+//        lowRectangleList.add(new LowRectangle(4,4));
+//        lowRectangleList.add(new LowRectangle(4,2));
+//        lowRectangleList.add(new LowRectangle(1,3));
+//        lowRectangleList.add(new LowRectangle(1,2));
+//        lowRectangleList.add(new LowRectangle(1,4));
+
+
+        return lowRectangleList;
     }
 }

@@ -1,7 +1,5 @@
 package main.Rectangle;
 
-import lombok.Getter;
-import lombok.Setter;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -102,15 +100,33 @@ public class Rectangle {
             R.add(new Rectangle(r.X, Y - r.Y,r.getNum()));
             return R;
         }
+        else if ((r.Y == X) && (r.X < Y))
+        {
+            R.add(new Rectangle(r.Y, Y - r.X,r.getNum()));
+            return R;
+        }
+
         else if ((r.X < X) && (r.Y == Y))   // если r по высоте совпадает, то вернуть правую часть
         {
             R.add(new Rectangle(X - r.X, r.Y,r.getNum()));
             return R;
         }
+        else if ((r.Y < X) && (r.X == Y))
+        {
+            R.add(new Rectangle(X - r.Y, r.X,r.getNum()));
+            return R;
+        }
+
         else if ((r.X < X) && (r.Y < Y))    // если r меньше по всем осям, то получится две части
         {
             R.add(new Rectangle(X - r.X, Y,r.getNum()));
             R.add(new Rectangle(r.X, Y - r.Y,r.getNum()));
+            return R;
+        }
+        else if ((r.Y < X) && (r.X < Y))
+        {
+            R.add(new Rectangle(X - r.Y, Y,r.getNum()));
+            R.add(new Rectangle(r.Y, Y - r.X,r.getNum()));
             return R;
         }
         return null;                        // если прямоугольники совпали то вернём null
