@@ -13,6 +13,7 @@ public class LowRectangle {
     protected int yStart;
     protected int xEnd;
     protected int yEnd;
+    private String name;
 
     private boolean mustBeInFinal;
 
@@ -20,6 +21,11 @@ public class LowRectangle {
     public LowRectangle(int xSize, int ySize) {
         this.xSize = xSize;
         this.ySize = ySize;
+    }
+    public LowRectangle(int xSize, int ySize,String name) {
+        this.xSize = xSize;
+        this.ySize = ySize;
+        this.name=name;
     }
 
     public static List<LowRectangle> cloneWithout(List<LowRectangle> source,int without){
@@ -43,6 +49,15 @@ public class LowRectangle {
 
 
     //-----------------------------------------
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
     public boolean isMustBeInFinal() {
         return mustBeInFinal;
     }
@@ -105,6 +120,7 @@ public class LowRectangle {
                 ", yStart=" + yStart +
                 ", xEnd=" + xEnd +
                 ", yEnd=" + yEnd +
+                ", name='" + name + '\'' +
                 ", mustBeInFinal=" + mustBeInFinal +
                 '}';
     }

@@ -74,6 +74,7 @@ public class BigRectangle {//Starts from (0,0)
                 }
                 this.leftBorderPoints=currentPoints;
             }
+//            System.out.println(first+"\n");
         }
         return false;
     }
@@ -99,7 +100,7 @@ public class BigRectangle {//Starts from (0,0)
                 }else
                     endOfLine.setX(given.getxEnd());
             }
-            if(startOfLine.getY()<given.getyEnd() && startOfLine.getY()>=given.getyStart() && endOfLine.getX()<=given.getxEnd() ){//startOfLine.getY()>=given.getyStart()
+            if(startOfLine.getY()<given.getyEnd() && startOfLine.getY()>given.getyStart() && endOfLine.getX()<=given.getxEnd() ){//startOfLine.getY()>=given.getyStart()
                 endOfLine.setX(given.getxEnd());
             }
         }
