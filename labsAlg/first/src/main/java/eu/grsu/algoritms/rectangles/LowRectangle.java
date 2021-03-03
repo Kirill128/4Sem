@@ -1,8 +1,5 @@
 package eu.grsu.algoritms.rectangles;
 
-import eu.grsu.algoritms.api.IInsideRect;
-import eu.grsu.algoritms.points.Point;
-
 import java.util.ArrayList;
 import java.util.List;
 

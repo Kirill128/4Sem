@@ -1,6 +1,5 @@
 package eu.grsu.algoritms.main;
 
-import eu.grsu.algoritms.api.IInsideRect;
 import eu.grsu.algoritms.rectangles.BigRectangle;
 import eu.grsu.algoritms.rectangles.LowRectangle;
 
