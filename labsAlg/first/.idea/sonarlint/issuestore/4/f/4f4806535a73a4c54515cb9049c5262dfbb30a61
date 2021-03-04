@@ -1,24 +1,24 @@
 
-S
-java:S1128">Remove this unused import 'eu.grsu.algoritms.api.IInsideRect'.(ÒĞÈt
-D
-java:S5413m")Verify that "remove()" is used correctly.(„ìïÎùÿÿÿÿ
-S
-java:S1128"=Remove this unused import 'javafx.animation.ScaleTransition'.(Ú‘“ù
-R	java:S125–"<This block of commented-out lines of code should be removed.(ª¶İã
-H
-java:S1481V"-Remove this unused "endPoint" local variable.(å‘¯àøÿÿÿÿ
 P	java:S125z"<This block of commented-out lines of code should be removed.(Éƒe
-J
-java:S1481W"/Remove this unused "startPoint" local variable.(şšÍŒøÿÿÿÿ
 Y
 java:S1854W">Remove this useless assignment to local variable "startPoint".(şšÍŒøÿÿÿÿ
+R	java:S125–"<This block of commented-out lines of code should be removed.(ª¶İã
+]	java:S125M"<This block of commented-out lines of code should be removed.(ö¬±ıÿÿÿÿ8£û¥ÿ.
+J
+java:S1481W"/Remove this unused "startPoint" local variable.(şšÍŒøÿÿÿÿ
+H
+java:S1481V"-Remove this unused "endPoint" local variable.(å‘¯àøÿÿÿÿ
+S
+java:S1128"=Remove this unused import 'javafx.animation.ScaleTransition'.(Ú‘“ù
 W
 java:S1854V"<Remove this useless assignment to local variable "endPoint".(å‘¯àøÿÿÿÿ
 m
 java:S3776Q"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(İñÒşÿÿÿÿ
 S
+java:S1128">Remove this unused import 'eu.grsu.algoritms.api.IInsideRect'.(ÒĞÈt
+D
+java:S5413m")Verify that "remove()" is used correctly.(„ìïÎùÿÿÿÿ
+S
 java:S1128	"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ
 D
 java:S5413m")Verify that "remove()" is used correctly.(„ìïÎùÿÿÿÿ
-]	java:S125M"<This block of commented-out lines of code should be removed.(ö¬±ıÿÿÿÿ8£û¥ÿ.
