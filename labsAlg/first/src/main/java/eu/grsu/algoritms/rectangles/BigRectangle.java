@@ -1,8 +1,6 @@
 package eu.grsu.algoritms.rectangles;
 
-import eu.grsu.algoritms.api.IInsideRect;
 import eu.grsu.algoritms.points.Point;
-import javafx.animation.ScaleTransition;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -45,7 +43,7 @@ public class BigRectangle {//Starts from (0,0)
         return res;
     }
 
-    public boolean canConsistOf(List<LowRectangle> source) {//nextItem=0 in first iteration
+    public boolean canConsistOf(List<LowRectangle> source) {
 
         for (LowRectangle first : source)
         {
