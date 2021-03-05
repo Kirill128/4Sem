@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <dirs>
-    <entry loc="/usr/lib/jvm/java-8-openjdk/bin" stamp="1614404506591"/>
-    <entry loc="/usr/lib/jvm/java-8-openjdk" stamp="1614404506591"/>
-    <entry loc="/usr/lib/jvm/java-15-openjdk" stamp="1613483265235"/>
+    <entry loc="/usr/lib/jvm/java-8-openjdk/bin" stamp="1613043561008"/>
+    <entry loc="/usr/lib/jvm/java-8-openjdk" stamp="1611688273806"/>
+    <entry loc="/usr/lib/jvm/java-15-openjdk" stamp="1614107420268"/>
 </dirs>
