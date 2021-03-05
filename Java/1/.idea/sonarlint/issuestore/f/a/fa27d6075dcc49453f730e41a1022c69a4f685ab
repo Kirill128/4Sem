@@ -1,46 +1,46 @@
 
-N	java:S1062"9Replace this use of System.out or System.err by a logger.(¡È¡á
-\
-java:S3457c"AFormat specifiers should be used instead of string concatenation.(°ìñŒüÿÿÿÿ
 H
-java:S1199("-Extract this nested code block into a method.(úÀôãùÿÿÿÿ
-C
-java:S11995"-Extract this nested code block into a method.(îÒ«Â
-H
-java:S1199#"-Extract this nested code block into a method.(ğÁ–Óûÿÿÿÿ
+java:S1199"-Extract this nested code block into a method.(·ÿ½äûÿÿÿÿ
+o
+java:S1488ˆ"YImmediately return this expression instead of assigning it to the temporary variable "a".(·ÛÌ
+S	java:S106<"9Replace this use of System.out or System.err by a logger.(îÄ©‰ıÿÿÿÿ
 C
 java:S1199-"-Extract this nested code block into a method.(ÎŞèº
+S	java:S106 "9Replace this use of System.out or System.err by a logger.(¯òæşÿÿÿÿ
+o
+java:S1488~"YImmediately return this expression instead of assigning it to the temporary variable "a".(Ğ°áã
+S	java:S106_"9Replace this use of System.out or System.err by a logger.(’ï¾úÿÿÿÿ
+S	java:S106%"9Replace this use of System.out or System.err by a logger.(Êê‡ÿøÿÿÿÿ
+H
+java:S1199q"-Extract this nested code block into a method.(úÀôãùÿÿÿÿ
+\
+java:S3457c"AFormat specifiers should be used instead of string concatenation.(°ìñŒüÿÿÿÿ
+C
+java:S11995"-Extract this nested code block into a method.(îÒ«Â
+l
+java:S1192)"QDefine a constant instead of duplicating this literal "Input ship name:" 3 times.( Ïñ‚üÿÿÿÿ
+N	java:S1062"9Replace this use of System.out or System.err by a logger.(¡È¡á
 o
 java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(åèàà
+T	java:S106‚"9Replace this use of System.out or System.err by a logger.(¥ ”ÿüÿÿÿÿ
+<	java:S131g""Add a default case to this switch.(½í“úùÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(×™£Ï
+H
+java:S1199l"-Extract this nested code block into a method.(ğÁ–Óûÿÿÿÿ
 @
 java:S3457_"%String contains no format specifiers.(’ï¾úÿÿÿÿ
 H
-java:S1199q"-Extract this nested code block into a method.(úÀôãùÿÿÿÿ
-o
-java:S1488ˆ"YImmediately return this expression instead of assigning it to the temporary variable "a".(·ÛÌ
-C
-java:S1199A"-Extract this nested code block into a method.(ô‹Êâ
-N	java:S106$"9Replace this use of System.out or System.err by a logger.(øìÑ˜
-N	java:S106F"9Replace this use of System.out or System.err by a logger.(®À£—
-o
-java:S1488~"YImmediately return this expression instead of assigning it to the temporary variable "a".(Ğ°áã
-S	java:S106 "9Replace this use of System.out or System.err by a logger.(¯òæşÿÿÿÿ
-T	java:S106‚"9Replace this use of System.out or System.err by a logger.(¥ ”ÿüÿÿÿÿ
-S	java:S106_"9Replace this use of System.out or System.err by a logger.(’ï¾úÿÿÿÿ
-C
-java:S11991"-Extract this nested code block into a method.(Ó‚ï
-l
-java:S1192)"QDefine a constant instead of duplicating this literal "Input ship name:" 3 times.( Ïñ‚üÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(×™£Ï
-N	java:S1066"9Replace this use of System.out or System.err by a logger.(ó´‘
-H
-java:S1199l"-Extract this nested code block into a method.(ğÁ–Óûÿÿÿÿ
-<	java:S131g""Add a default case to this switch.(½í“úùÿÿÿÿ
+java:S1199("-Extract this nested code block into a method.(úÀôãùÿÿÿÿ
 S	java:S106c"9Replace this use of System.out or System.err by a logger.(°ìñŒüÿÿÿÿ
 H
 java:S1199h"-Extract this nested code block into a method.(·ÿ½äûÿÿÿÿ
-S	java:S106<"9Replace this use of System.out or System.err by a logger.(îÄ©‰ıÿÿÿÿ
-S	java:S106%"9Replace this use of System.out or System.err by a logger.(Êê‡ÿøÿÿÿÿ
 S	java:S106)"9Replace this use of System.out or System.err by a logger.( Ïñ‚üÿÿÿÿ
+N	java:S106$"9Replace this use of System.out or System.err by a logger.(øìÑ˜
+C
+java:S11991"-Extract this nested code block into a method.(Ó‚ï
+N	java:S1066"9Replace this use of System.out or System.err by a logger.(ó´‘
 H
-java:S1199"-Extract this nested code block into a method.(·ÿ½äûÿÿÿÿ
+java:S1199#"-Extract this nested code block into a method.(ğÁ–Óûÿÿÿÿ
+N	java:S106F"9Replace this use of System.out or System.err by a logger.(®À£—
+C
+java:S1199A"-Extract this nested code block into a method.(ô‹Êâ

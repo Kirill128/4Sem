@@ -1,11 +1,9 @@
 
-]	java:S125%"<This block of commented-out lines of code should be removed.(¸˜…”ûÿÿÿÿ8®“íİÿ.
-S
-java:S1128">Remove this unused import 'eu.grsu.algoritms.api.IInsideRect'.(ÒĞÈt
-X	java:S125"<This block of commented-out lines of code should be removed.(¾‹¹ñ8˜©†Şÿ.
-]	java:S125"<This block of commented-out lines of code should be removed.(ù»šãûÿÿÿÿ8Ê’÷İÿ.
-S	java:S106"9Replace this use of System.out or System.err by a logger.(µóå¬øÿÿÿÿ
 t
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ôò¸ùÿÿÿÿ
-]	java:S125"<This block of commented-out lines of code should be removed.( àµÖüÿÿÿÿ8ıßøİÿ.
-N	java:S106"9Replace this use of System.out or System.err by a logger.(Ø¨ñÈ
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ôò¸ùÿÿÿÿ
+]	java:S125"<This block of commented-out lines of code should be removed.( àµÖüÿÿÿÿ8ıßøİÿ.
+X	java:S125"<This block of commented-out lines of code should be removed.(¾‹¹ñ8˜©†Şÿ.
+]	java:S125"<This block of commented-out lines of code should be removed.(ù»šãûÿÿÿÿ8Ê’÷İÿ.
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Ø¨ñÈ
+]	java:S125$"<This block of commented-out lines of code should be removed.(¸˜…”ûÿÿÿÿ8®“íİÿ.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(µóå¬øÿÿÿÿ8ª¨÷†€/

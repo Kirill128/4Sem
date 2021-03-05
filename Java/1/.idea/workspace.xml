@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="26edaaf0-6650-4d9c-be6e-ab83bf4a217b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/a/ba2ee9701fc895e14bdc85f497ec88fc8020010b" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/a/ba2ee9701fc895e14bdc85f497ec88fc8020010b" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/a/fa27d6075dcc49453f730e41a1022c69a4f685ab" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/a/fa27d6075dcc49453f730e41a1022c69a4f685ab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../labsAlg/first/.idea/sonarlint/issuestore/4/f/4f4806535a73a4c54515cb9049c5262dfbb30a61" beforeDir="false" afterPath="$PROJECT_DIR$/../../labsAlg/first/.idea/sonarlint/issuestore/4/f/4f4806535a73a4c54515cb9049c5262dfbb30a61" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../labsAlg/first/.idea/sonarlint/issuestore/6/d/6df6c2a5d2583ed4b15106bb1a560ccb3590bdf1" beforeDir="false" afterPath="$PROJECT_DIR$/../../labsAlg/first/.idea/sonarlint/issuestore/6/d/6df6c2a5d2583ed4b15106bb1a560ccb3590bdf1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../labsAlg/first/.idea/sonarlint/issuestore/8/1/818897e8640a9a9ea299071b875110cf7f3a1ce4" beforeDir="false" afterPath="$PROJECT_DIR$/../../labsAlg/first/.idea/sonarlint/issuestore/8/1/818897e8640a9a9ea299071b875110cf7f3a1ce4" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +29,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/command-demo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../SenlaJava/MapTwits" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />

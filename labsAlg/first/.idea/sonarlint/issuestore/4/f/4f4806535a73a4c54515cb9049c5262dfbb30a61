@@ -1,24 +1,20 @@
 
-P	java:S125z"<This block of commented-out lines of code should be removed.(ŽÉƒe
-Y
-java:S1854W">Remove this useless assignment to local variable "startPoint".(þšÍŒøÿÿÿÿ
-R	java:S125–"<This block of commented-out lines of code should be removed.(ª¶Ýã
-]	java:S125M"<This block of commented-out lines of code should be removed.(Žö¬±ýÿÿÿÿ8£û¥ÿ.
+P	java:S125x"<This block of commented-out lines of code should be removed.(ŽÉƒe
+]	java:S125K"<This block of commented-out lines of code should be removed.(Žö¬±ýÿÿÿÿ8£û¥ÿ.
+D
+java:S5413k")Verify that "remove()" is used correctly.(„ìïÎùÿÿÿÿ
+D
+java:S5413k")Verify that "remove()" is used correctly.(„ìïÎùÿÿÿÿ
 J
-java:S1481W"/Remove this unused "startPoint" local variable.(þšÍŒøÿÿÿÿ
+java:S1481U"/Remove this unused "startPoint" local variable.(þšÍŒøÿÿÿÿ
+S
+java:S1128"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ
 H
-java:S1481V"-Remove this unused "endPoint" local variable.(å‘¯àøÿÿÿÿ
-S
-java:S1128"=Remove this unused import 'javafx.animation.ScaleTransition'.(Ú‘“ù
+java:S1481T"-Remove this unused "endPoint" local variable.(å‘¯àøÿÿÿÿ
+R	java:S125”"<This block of commented-out lines of code should be removed.(ª¶Ýã
 W
-java:S1854V"<Remove this useless assignment to local variable "endPoint".(å‘¯àøÿÿÿÿ
+java:S1854T"<Remove this useless assignment to local variable "endPoint".(å‘¯àøÿÿÿÿ
 m
-java:S3776Q"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(ÝñÒþÿÿÿÿ
-S
-java:S1128">Remove this unused import 'eu.grsu.algoritms.api.IInsideRect'.(ÒÐÈt
-D
-java:S5413m")Verify that "remove()" is used correctly.(„ìïÎùÿÿÿÿ
-S
-java:S1128	"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ
-D
-java:S5413m")Verify that "remove()" is used correctly.(„ìïÎùÿÿÿÿ
+java:S3776O"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(ÝñÒþÿÿÿÿ
+Y
+java:S1854U">Remove this useless assignment to local variable "startPoint".(þšÍŒøÿÿÿÿ
