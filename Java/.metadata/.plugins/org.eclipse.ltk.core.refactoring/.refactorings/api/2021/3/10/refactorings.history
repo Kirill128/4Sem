@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;by.grsu.platformicro.api.dao.IUserDao&apos; to &apos;IShipDao&apos;&#x0A;- Original project: &apos;api&apos;&#x0A;- Original element: &apos;by.grsu.platformicro.api.dao.IUserDao&apos;&#x0A;- Renamed element: &apos;by.grsu.platformicro.api.dao.IShipDao&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;IUserDao&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;by.grsu.platformicro.api.dao{IUserDao.java[IUserDao" matchStrategy="1" name="IShipDao" qualified="false" references="true" similarDeclarations="false" stamp="1614943421036" textual="false" version="1.0"/>
+</session>

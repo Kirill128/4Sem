@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="by.grsu.platformicro.api.dao.IContainerDao"/>
+    <fullyQualifiedTypeName name="by.grsu.platformicro.api.dao.IShipDao"/>
+    <fullyQualifiedTypeName name="by.grsu.platformicro.api.dao.IDeckDao"/>
+    <fullyQualifiedTypeName name="by.grsu.platformicro.api.services.IDeckService"/>
+    <fullyQualifiedTypeName name="by.grsu.platformicro.api.services.IPortService"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,5 @@
+package by.grsu.platformicro.services;
+
+public class ContainerService {
+
+}
