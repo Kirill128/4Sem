@@ -1,1 +1,8 @@
 1614943421036	Rename type 'IUserDao'
+1615008704652	Rename type 'IContainerDao'
+1615008769424	Rename type 'IDeckDao'
+1615008780661	Rename type 'IPortDao'
+1615008793526	Rename type 'IShipDao'
+1615014332466	Rename type 'IWaterWorkable'
+1615015868748	Delete element
+1615016958024	Rename package 'by.grsu.platformicro.api.dao'

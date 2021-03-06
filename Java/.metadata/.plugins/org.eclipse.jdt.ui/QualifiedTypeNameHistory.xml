@@ -1,8 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="by.grsu.platformicro.api.dao.IContainerDao"/>
     <fullyQualifiedTypeName name="by.grsu.platformicro.api.dao.IShipDao"/>
     <fullyQualifiedTypeName name="by.grsu.platformicro.api.dao.IDeckDao"/>
     <fullyQualifiedTypeName name="by.grsu.platformicro.api.services.IDeckService"/>
     <fullyQualifiedTypeName name="by.grsu.platformicro.api.services.IPortService"/>
+    <fullyQualifiedTypeName name="by.grsu.platformicro.api.services.IContainerService"/>
+    <fullyQualifiedTypeName name="by.grsu.platformicro.api.dao.IDeckFabric"/>
+    <fullyQualifiedTypeName name="by.grsu.platformicro.entities.ports.Port"/>
+    <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
+    <fullyQualifiedTypeName name="lombok.Setter"/>
+    <fullyQualifiedTypeName name="lombok.Getter"/>
+    <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
+    <fullyQualifiedTypeName name="lombok.Builder"/>
+    <fullyQualifiedTypeName name="by.grsu.platformicro.entities.containers.Container"/>
+    <fullyQualifiedTypeName name="by.grsu.platformicro.entities.decks.Deck"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="by.grsu.platformicro.entities.ships.Ship"/>
+    <fullyQualifiedTypeName name="by.grsu.platformicro.api.dao.IContainerDao"/>
+    <fullyQualifiedTypeName name="by.grsu.platformicro.api.services.IShipService"/>
 </qualifiedTypeNameHistroy>
