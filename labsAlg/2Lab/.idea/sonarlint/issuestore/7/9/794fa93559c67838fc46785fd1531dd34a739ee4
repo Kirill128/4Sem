@@ -1,0 +1,9 @@
+
+]	java:S125	"<This block of commented-out lines of code should be removed.(ü•€Šøÿÿÿÿ8Ğ†ë¯/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(‡¼ã8ˆ•„«/
+@
+java:S2119b"Save and re-use this "Random".(šŸ«íøÿÿÿÿ8ëÉê¯/
+]	java:S1256"<This block of commented-out lines of code should be removed.(”Áÿÿÿÿÿ8€åË¯/
+X	java:S1251"<This block of commented-out lines of code should be removed.(•ÏØ³8€åË¯/
+£
+java:S1186M"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(—ğà“ùÿÿÿÿ8Ÿú€°/
