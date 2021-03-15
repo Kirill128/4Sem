@@ -1737,3 +1737,1104 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact by.grsu:view:
 	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
 	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2021-03-12 11:46:21,955 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-03-12 11:46:23,827 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:entitys:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/entitys/pom.xml.
+2021-03-12 11:46:23,880 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:rest:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/rest/pom.xml.
+2021-03-12 11:46:23,897 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/services: by.grsu:services:0.0.1-SNAPSHOT with classifier  to /services/target/classes
+2021-03-12 11:46:23,898 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: by.grsu:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2021-03-12 11:46:23,899 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-12 11:46:23,899 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-12 11:46:23,939 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:services:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/services/pom.xml.
+2021-03-12 11:46:23,942 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: by.grsu:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2021-03-12 11:46:23,943 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-12 11:46:23,944 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-12 11:46:23,948 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: by.grsu:platformicro:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/pom.xml.
+2021-03-12 11:46:23,988 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:api:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/api/pom.xml.
+2021-03-12 11:46:23,993 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-12 11:46:24,026 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: main:main:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/main/pom.xml.
+2021-03-12 11:46:24,174 [Worker-4: Updating Maven Dependencies] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for by.grsu:view:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+2021-03-12 11:46:24,238 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:dao:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/dao/pom.xml.
+2021-03-12 11:46:24,240 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-12 11:46:24,241 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-12 11:46:24,307 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:rest:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/rest/pom.xml.
+2021-03-12 11:46:24,311 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/services: by.grsu:services:0.0.1-SNAPSHOT with classifier  to /services/target/classes
+2021-03-12 11:46:24,311 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: by.grsu:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2021-03-12 11:46:24,312 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-12 11:46:24,313 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-12 11:46:24,361 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:entitys:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/entitys/pom.xml.
+2021-03-12 11:46:24,408 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:services:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/services/pom.xml.
+2021-03-12 11:46:24,411 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: by.grsu:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2021-03-12 11:46:24,412 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-12 11:46:24,413 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-12 11:46:24,468 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:rest:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/rest/pom.xml.
+2021-03-12 11:46:24,473 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/services: by.grsu:services:0.0.1-SNAPSHOT with classifier  to /services/target/classes
+2021-03-12 11:46:24,473 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: by.grsu:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2021-03-12 11:46:24,474 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-12 11:46:24,474 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-12 11:46:24,515 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:api:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/api/pom.xml.
+2021-03-12 11:46:24,518 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-12 11:46:24,555 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:dao:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/dao/pom.xml.
+2021-03-12 11:46:24,560 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-12 11:46:24,560 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-12 11:46:24,598 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:rest:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/rest/pom.xml.
+2021-03-12 11:46:24,602 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/services: by.grsu:services:0.0.1-SNAPSHOT with classifier  to /services/target/classes
+2021-03-12 11:46:24,603 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: by.grsu:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2021-03-12 11:46:24,604 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-12 11:46:24,605 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-12 11:46:24,643 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:services:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/services/pom.xml.
+2021-03-12 11:46:24,646 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: by.grsu:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2021-03-12 11:46:24,646 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-12 11:46:24,647 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-12 11:46:24,688 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:rest:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/rest/pom.xml.
+2021-03-12 11:46:24,692 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/services: by.grsu:services:0.0.1-SNAPSHOT with classifier  to /services/target/classes
+2021-03-12 11:46:24,693 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: by.grsu:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2021-03-12 11:46:24,694 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-12 11:46:24,694 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-12 11:46:25,832 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 11:46:25,839 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 11:46:25,843 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 11:46:25,844 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 11:46:26,182 [Worker-8: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-12 11:46:26,186 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 11:46:26,188 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 11:46:26,191 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 11:46:26,192 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 11:46:26,267 [Worker-8: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-12 11:46:26,267 [Worker-8: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-12 11:46:26,276 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 11:46:26,278 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 11:46:26,280 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 11:46:26,282 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 11:46:26,314 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for by.grsu:view:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+2021-03-12 11:46:26,319 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 11:46:26,321 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 11:46:26,323 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 11:46:26,324 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 11:46:26,387 [Worker-8: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: by.grsu:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2021-03-12 11:46:26,387 [Worker-8: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-12 11:46:26,387 [Worker-8: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-12 11:46:26,396 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 11:46:26,397 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 11:46:26,399 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 11:46:26,401 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 11:46:26,460 [Worker-8: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/services: by.grsu:services:0.0.1-SNAPSHOT with classifier  to /services/target/classes
+2021-03-12 11:46:26,460 [Worker-8: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: by.grsu:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2021-03-12 11:46:26,461 [Worker-8: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-12 11:46:26,461 [Worker-8: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-12 11:46:26,466 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 11:46:26,467 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 11:46:26,469 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 11:46:26,470 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 11:51:13,129 [Worker-24: Creating project "ui"] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:ui:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/ui/pom.xml.
+2021-03-12 11:51:13,193 [Worker-24: Creating project "ui"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ui/src/main/java
+2021-03-12 11:51:13,194 [Worker-24: Creating project "ui"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ui/src/main/resources
+2021-03-12 11:51:13,194 [Worker-24: Creating project "ui"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ui/src/test/java
+2021-03-12 11:51:13,195 [Worker-24: Creating project "ui"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ui/src/test/resources
+2021-03-12 11:51:13,693 [Worker-10: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 11:51:13,694 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 11:51:13,696 [Worker-10: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 11:51:13,697 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 11:51:16,131 [Worker-24: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:entitys:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/entitys/pom.xml.
+2021-03-12 11:51:16,155 [Worker-24: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:ui:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/ui/pom.xml.
+2021-03-12 11:51:16,178 [Worker-24: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:rest:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/rest/pom.xml.
+2021-03-12 11:51:16,190 [Worker-24: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/services: by.grsu:services:0.0.1-SNAPSHOT with classifier  to /services/target/classes
+2021-03-12 11:51:16,190 [Worker-24: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: by.grsu:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2021-03-12 11:51:16,190 [Worker-24: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-12 11:51:16,191 [Worker-24: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-12 11:51:16,216 [Worker-24: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:services:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/services/pom.xml.
+2021-03-12 11:51:16,219 [Worker-24: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: by.grsu:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2021-03-12 11:51:16,220 [Worker-24: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-12 11:51:16,220 [Worker-24: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-12 11:51:16,224 [Worker-24: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: by.grsu:platformicro:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/pom.xml.
+2021-03-12 11:51:16,242 [Worker-24: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:api:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/api/pom.xml.
+2021-03-12 11:51:16,244 [Worker-24: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-12 11:51:16,264 [Worker-24: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:dao:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/dao/pom.xml.
+2021-03-12 11:51:16,266 [Worker-24: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-12 11:51:16,266 [Worker-24: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-12 11:51:16,586 [Worker-24: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: by.grsu:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2021-03-12 11:51:16,586 [Worker-24: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-12 11:51:16,586 [Worker-24: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-12 11:51:16,592 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 11:51:16,595 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 11:51:16,600 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 11:51:16,601 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 11:51:16,630 [Worker-24: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/services: by.grsu:services:0.0.1-SNAPSHOT with classifier  to /services/target/classes
+2021-03-12 11:51:16,631 [Worker-24: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: by.grsu:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2021-03-12 11:51:16,631 [Worker-24: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-12 11:51:16,632 [Worker-24: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-12 11:51:16,636 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 11:51:16,637 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 11:51:16,640 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 11:51:16,641 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 11:51:16,765 [Worker-25: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 11:51:16,766 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 11:51:16,768 [Worker-25: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 11:51:16,769 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 11:51:16,786 [Worker-25: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-12 11:51:16,790 [Worker-25: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 11:51:16,791 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 11:51:16,793 [Worker-25: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 11:51:16,794 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 11:51:16,809 [Worker-25: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-12 11:51:16,810 [Worker-25: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-12 11:51:16,817 [Worker-25: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 11:51:16,818 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 11:51:16,821 [Worker-25: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 11:51:16,821 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 11:51:16,839 [Worker-25: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 11:51:16,840 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 11:51:16,841 [Worker-25: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 11:51:16,842 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 11:54:25,232 [Worker-25: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 11:54:25,236 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 11:54:25,238 [Worker-25: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 11:54:25,239 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 11:54:55,805 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 11:54:55,807 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 11:54:55,809 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 11:54:55,811 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 11:55:07,774 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 11:55:07,776 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 11:55:07,781 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 11:55:07,782 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 11:56:02,484 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 11:56:02,486 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 11:56:02,489 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 11:56:02,490 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 11:56:13,632 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 11:56:13,632 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 11:56:13,633 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 11:56:13,634 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 11:56:16,572 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 11:56:16,573 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 11:56:16,574 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 11:56:16,575 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 11:57:08,136 [Worker-31: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 11:57:08,137 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 11:57:08,138 [Worker-31: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 11:57:08,139 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 12:00:47,295 [Worker-30: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/services: by.grsu:services:0.0.1-SNAPSHOT with classifier  to /services/target/classes
+2021-03-12 12:00:47,296 [Worker-30: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: by.grsu:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2021-03-12 12:00:47,296 [Worker-30: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-12 12:00:47,296 [Worker-30: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-12 12:00:47,299 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 12:00:47,300 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 12:00:47,301 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 12:00:47,302 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 12:00:59,906 [Worker-25: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 12:00:59,907 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 12:00:59,910 [Worker-25: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 12:00:59,910 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 12:01:11,597 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 12:01:11,598 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 12:01:11,600 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 12:01:11,601 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 12:01:19,985 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 12:01:19,987 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 12:01:19,990 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 12:01:19,991 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 12:02:23,374 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 12:02:23,375 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 12:02:23,376 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 12:02:23,378 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 12:02:23,411 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 12:02:23,412 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 12:02:23,414 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 12:02:23,414 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 12:06:19,965 [Worker-25: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 12:06:19,966 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 12:06:19,968 [Worker-25: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 12:06:19,969 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 12:15:55,600 [Worker-31: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 12:15:55,602 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 12:15:55,604 [Worker-31: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 12:15:55,604 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 12:16:20,390 [Worker-35: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 12:16:20,391 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 12:16:20,392 [Worker-35: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 12:16:20,393 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 12:16:57,841 [Worker-35: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 12:16:57,843 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 12:16:57,846 [Worker-35: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 12:16:57,847 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 12:17:11,503 [Worker-34: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 12:17:11,505 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 12:17:11,507 [Worker-34: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 12:17:11,508 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 12:17:24,753 [Worker-36: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 12:17:24,755 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 12:17:24,757 [Worker-36: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 12:17:24,758 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 12:17:47,685 [Worker-34: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 12:17:47,686 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 12:17:47,688 [Worker-34: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 12:17:47,689 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 12:18:06,741 [Worker-35: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 12:18:06,742 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 12:18:06,743 [Worker-35: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 12:18:06,744 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 12:20:14,213 [Worker-36: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 12:20:14,215 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 12:20:14,216 [Worker-36: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 12:20:14,217 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 12:20:17,654 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 12:20:17,655 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 12:20:17,656 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 12:20:17,657 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 12:20:54,182 [Worker-36: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 12:20:54,183 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 12:20:54,184 [Worker-36: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 12:20:54,185 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 12:20:55,236 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 12:20:55,237 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 12:20:55,238 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 12:20:55,238 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 12:26:11,736 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 12:26:11,737 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 12:26:11,738 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 12:26:11,739 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 12:26:46,173 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 12:26:46,174 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 12:26:46,176 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 12:26:46,177 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 12:26:51,671 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 12:26:51,672 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 12:26:51,674 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 12:26:51,675 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 12:26:56,906 [Worker-37: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 12:26:56,907 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 12:26:56,908 [Worker-37: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 12:26:56,908 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 12:52:05,425 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 12:52:05,426 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 12:52:05,427 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 12:52:05,428 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 12:52:05,466 [Worker-44: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: by.grsu:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2021-03-12 12:52:05,467 [Worker-44: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-12 12:52:05,467 [Worker-44: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-12 12:52:05,470 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 12:52:05,471 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 12:52:05,473 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 12:52:05,473 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 12:52:05,506 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 12:52:05,507 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 12:52:05,509 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 12:52:05,510 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 13:16:26,385 [Worker-45: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 13:16:26,386 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 13:16:26,387 [Worker-45: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 13:16:26,387 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 13:17:35,836 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-03-12 13:17:37,865 [Worker-9: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:entitys:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/entitys/pom.xml.
+2021-03-12 13:17:38,600 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 13:17:38,608 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 13:17:38,612 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 13:17:38,613 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 13:17:38,812 [Worker-9: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:api:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/api/pom.xml.
+2021-03-12 13:17:38,820 [Worker-9: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-12 13:17:38,913 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 13:17:38,915 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 13:17:38,918 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 13:17:38,920 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 13:17:39,083 [Worker-9: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:dao:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/dao/pom.xml.
+2021-03-12 13:17:39,090 [Worker-9: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-12 13:17:39,091 [Worker-9: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-12 13:17:39,168 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 13:17:39,169 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 13:17:39,171 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 13:17:39,172 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 13:17:39,222 [Worker-9: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: main:main:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/main/pom.xml.
+2021-03-12 13:17:39,228 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for by.grsu:view:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+2021-03-12 13:17:39,300 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 13:17:39,301 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 13:17:39,304 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 13:17:39,305 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 13:17:39,442 [Worker-9: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:entitys:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/entitys/pom.xml.
+2021-03-12 13:17:39,450 [Worker-9: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: by.grsu:platformicro:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/pom.xml.
+2021-03-12 13:17:39,507 [Worker-9: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:api:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/api/pom.xml.
+2021-03-12 13:17:39,512 [Worker-9: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-12 13:17:39,552 [Worker-9: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:dao:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/dao/pom.xml.
+2021-03-12 13:17:39,557 [Worker-9: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-12 13:17:39,557 [Worker-9: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-12 13:17:39,595 [Worker-9: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:entitys:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/entitys/pom.xml.
+2021-03-12 13:17:40,053 [Worker-9: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:services:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/services/pom.xml.
+2021-03-12 13:17:40,062 [Worker-9: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: by.grsu:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2021-03-12 13:17:40,063 [Worker-9: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-12 13:17:40,063 [Worker-9: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-12 13:17:40,180 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 13:17:40,182 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 13:17:40,184 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 13:17:40,185 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 13:17:40,348 [Worker-9: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:rest:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/rest/pom.xml.
+2021-03-12 13:17:40,359 [Worker-9: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/services: by.grsu:services:0.0.1-SNAPSHOT with classifier  to /services/target/classes
+2021-03-12 13:17:40,360 [Worker-9: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: by.grsu:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2021-03-12 13:17:40,361 [Worker-9: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-12 13:17:40,361 [Worker-9: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-12 13:17:40,433 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 13:17:40,434 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 13:17:40,435 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 13:17:40,436 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 13:17:40,605 [Worker-9: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:ui:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/ui/pom.xml.
+2021-03-12 13:17:40,680 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 13:17:40,681 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 13:17:40,683 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 13:17:40,684 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 13:17:42,090 [Worker-7: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:entitys:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/entitys/pom.xml.
+2021-03-12 13:17:42,119 [Worker-7: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:ui:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/ui/pom.xml.
+2021-03-12 13:17:42,119 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 13:17:42,122 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 13:17:42,128 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 13:17:42,129 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 13:17:42,173 [Worker-11: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-12 13:17:42,179 [Worker-7: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:rest:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/rest/pom.xml.
+2021-03-12 13:17:42,184 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 13:17:42,185 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 13:17:42,188 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 13:17:42,189 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 13:17:42,195 [Worker-7: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/services: by.grsu:services:0.0.1-SNAPSHOT with classifier  to /services/target/classes
+2021-03-12 13:17:42,196 [Worker-7: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: by.grsu:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2021-03-12 13:17:42,196 [Worker-7: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-12 13:17:42,196 [Worker-7: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-12 13:17:42,212 [Worker-11: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-12 13:17:42,212 [Worker-11: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-12 13:17:42,218 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 13:17:42,219 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 13:17:42,221 [Worker-7: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:services:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/services/pom.xml.
+2021-03-12 13:17:42,221 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 13:17:42,222 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 13:17:42,223 [Worker-7: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: by.grsu:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2021-03-12 13:17:42,223 [Worker-7: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-12 13:17:42,224 [Worker-7: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-12 13:17:42,227 [Worker-7: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: by.grsu:platformicro:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/pom.xml.
+2021-03-12 13:17:42,252 [Worker-7: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:api:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/api/pom.xml.
+2021-03-12 13:17:42,254 [Worker-7: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-12 13:17:42,274 [Worker-7: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: main:main:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/main/pom.xml.
+2021-03-12 13:17:42,279 [Worker-7: Updating Maven Dependencies] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for by.grsu:view:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+2021-03-12 13:17:42,332 [Worker-7: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:dao:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/dao/pom.xml.
+2021-03-12 13:17:42,362 [Worker-7: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-12 13:17:42,362 [Worker-7: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-12 13:17:43,310 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 13:17:43,311 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 13:17:43,315 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 13:17:43,316 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 13:17:43,338 [Worker-2: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-12 13:17:43,349 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 13:17:43,350 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 13:17:43,353 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 13:17:43,354 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 13:17:43,379 [Worker-2: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-12 13:17:43,380 [Worker-2: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-12 13:17:43,385 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 13:17:43,386 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 13:17:43,388 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 13:17:43,389 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 13:17:43,402 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for by.grsu:view:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+2021-03-12 13:17:43,408 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 13:17:43,409 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 13:17:43,416 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 13:17:43,417 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 13:17:43,440 [Worker-2: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: by.grsu:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2021-03-12 13:17:43,441 [Worker-2: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-12 13:17:43,441 [Worker-2: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-12 13:17:43,446 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 13:17:43,447 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 13:17:43,454 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 13:17:43,455 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 13:17:43,500 [Worker-2: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/services: by.grsu:services:0.0.1-SNAPSHOT with classifier  to /services/target/classes
+2021-03-12 13:17:43,501 [Worker-2: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: by.grsu:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2021-03-12 13:17:43,501 [Worker-2: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-12 13:17:43,502 [Worker-2: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-12 13:17:43,507 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 13:17:43,508 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 13:17:43,512 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 13:17:43,513 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 13:17:43,536 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 13:17:43,537 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 13:17:43,539 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 13:17:43,541 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 13:19:11,079 [Worker-2: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-12 13:19:11,084 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 13:19:11,092 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 13:19:11,095 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 13:19:11,096 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 13:19:25,289 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 13:19:25,290 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 13:19:25,292 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 13:19:25,293 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 13:20:17,543 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 13:20:17,544 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 13:20:17,546 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 13:20:17,547 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 13:21:19,122 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 13:21:19,123 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 13:21:19,125 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 13:21:19,125 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 13:22:53,464 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 13:22:53,465 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 13:22:53,466 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 13:22:53,467 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 13:22:56,931 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 13:22:56,932 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 13:22:56,934 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 13:22:56,935 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 13:31:53,387 [Worker-21: reload maven project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-12 13:31:53,387 [Worker-21: reload maven project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-12 13:32:51,033 [Worker-23: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/services: by.grsu:services:0.0.1-SNAPSHOT with classifier  to /services/target/classes
+2021-03-12 13:32:51,033 [Worker-23: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: by.grsu:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2021-03-12 13:32:51,034 [Worker-23: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-12 13:32:51,034 [Worker-23: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-12 13:32:51,041 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 13:32:51,042 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 13:32:51,044 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 13:32:51,045 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 14:22:17,658 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 14:22:17,660 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 14:22:17,662 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 14:22:17,663 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 14:22:31,987 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 14:22:31,988 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 14:22:31,990 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 14:22:31,990 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 14:24:53,509 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 14:24:53,510 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 14:24:53,511 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 14:24:53,512 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 14:24:53,546 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 14:24:53,548 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 14:24:53,550 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 14:24:53,551 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 14:25:42,814 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 14:25:42,814 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 14:25:42,815 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 14:25:42,816 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 14:25:42,836 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 14:25:42,837 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 14:25:42,838 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 14:25:42,838 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 14:32:57,310 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 14:32:57,311 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 14:32:57,313 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 14:32:57,314 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 14:33:01,048 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 14:33:01,049 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 14:33:01,051 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 14:33:01,051 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 14:34:53,663 [Worker-42: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 14:34:53,664 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 14:34:53,665 [Worker-42: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 14:34:53,666 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 14:35:12,137 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 14:35:12,138 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 14:35:12,140 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 14:35:12,140 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 14:35:22,823 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 14:35:22,824 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 14:35:22,826 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 14:35:22,827 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 14:37:00,195 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 14:37:00,196 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 14:37:00,198 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 14:37:00,199 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 14:37:15,707 [Worker-47: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 14:37:15,708 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 14:37:15,709 [Worker-47: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 14:37:15,710 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 14:38:22,272 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 14:38:22,273 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 14:38:22,274 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 14:38:22,275 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 14:38:34,958 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 14:38:34,958 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 14:38:34,959 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 14:38:34,960 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 14:38:51,153 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 14:38:51,154 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-12 14:38:51,156 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-12 14:38:51,157 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 08:27:43,625 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-03-13 08:27:45,577 [Worker-10: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:api:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/api/pom.xml.
+2021-03-13 08:27:45,591 [Worker-10: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for by.grsu:entitys:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+2021-03-13 08:27:45,927 [Worker-10: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 08:27:45,936 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 08:27:46,022 [Worker-10: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 08:27:46,023 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 08:27:46,673 [Worker-7: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: by.grsu:platformicro:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/pom.xml.
+2021-03-13 08:27:46,740 [Worker-3: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:entitys:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/entitys/pom.xml.
+2021-03-13 08:27:46,741 [Worker-7: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:api:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/api/pom.xml.
+2021-03-13 08:27:46,745 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for by.grsu:entitys:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+2021-03-13 08:27:47,052 [Worker-7: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:ui:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/ui/pom.xml.
+2021-03-13 08:27:47,054 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for by.grsu:rest:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+2021-03-13 08:27:47,412 [Worker-5: Download sources and javadoc] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for by.grsu:entitys:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+2021-03-13 08:27:47,427 [Worker-5: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for by.grsu:entitys:0.0.1-SNAPSHOT
+org.eclipse.core.runtime.CoreException: Could not resolve artifact by.grsu:entitys:jar:sources:0.0.1-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:304)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2021-03-13 08:27:47,435 [Worker-5: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for by.grsu:entitys:0.0.1-SNAPSHOT
+org.eclipse.core.runtime.CoreException: Could not resolve artifact by.grsu:entitys:jar:javadoc:0.0.1-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:316)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2021-03-13 08:27:47,448 [Worker-5: Download sources and javadoc] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for by.grsu:rest:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+2021-03-13 08:27:47,454 [Worker-5: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for by.grsu:rest:0.0.1-SNAPSHOT
+org.eclipse.core.runtime.CoreException: Could not resolve artifact by.grsu:rest:jar:sources:0.0.1-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:304)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2021-03-13 08:27:47,542 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 08:27:47,543 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 08:27:47,547 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 08:27:47,549 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 08:27:47,884 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:entitys:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/entitys/pom.xml.
+2021-03-13 08:27:47,923 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:ui:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/ui/pom.xml.
+2021-03-13 08:27:47,942 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/rest: by.grsu:rest:0.0.1-SNAPSHOT with classifier  to /rest/target/classes
+2021-03-13 08:27:47,943 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/services: by.grsu:services:0.0.1-SNAPSHOT with classifier  to /services/target/classes
+2021-03-13 08:27:47,943 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: by.grsu:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2021-03-13 08:27:47,944 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-13 08:27:47,944 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-13 08:27:47,974 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:rest:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/rest/pom.xml.
+2021-03-13 08:27:47,976 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/services: by.grsu:services:0.0.1-SNAPSHOT with classifier  to /services/target/classes
+2021-03-13 08:27:47,977 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: by.grsu:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2021-03-13 08:27:47,978 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-13 08:27:47,978 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-13 08:27:48,009 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:services:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/services/pom.xml.
+2021-03-13 08:27:48,012 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: by.grsu:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2021-03-13 08:27:48,012 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-13 08:27:48,013 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-13 08:27:48,016 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: by.grsu:platformicro:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/pom.xml.
+2021-03-13 08:27:48,043 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:api:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/api/pom.xml.
+2021-03-13 08:27:48,047 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-13 08:27:48,075 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: main:main:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/main/pom.xml.
+2021-03-13 08:27:48,080 [Worker-4: Updating Maven Dependencies] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for by.grsu:view:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+2021-03-13 08:27:48,135 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:dao:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/dao/pom.xml.
+2021-03-13 08:27:48,137 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-13 08:27:48,138 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-13 08:27:48,164 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:ui:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/ui/pom.xml.
+2021-03-13 08:27:48,166 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/rest: by.grsu:rest:0.0.1-SNAPSHOT with classifier  to /rest/target/classes
+2021-03-13 08:27:48,167 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/services: by.grsu:services:0.0.1-SNAPSHOT with classifier  to /services/target/classes
+2021-03-13 08:27:48,168 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: by.grsu:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2021-03-13 08:27:48,168 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-13 08:27:48,168 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-13 08:27:48,193 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:rest:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/rest/pom.xml.
+2021-03-13 08:27:48,195 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/services: by.grsu:services:0.0.1-SNAPSHOT with classifier  to /services/target/classes
+2021-03-13 08:27:48,196 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: by.grsu:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2021-03-13 08:27:48,196 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-13 08:27:48,196 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-13 08:27:48,216 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:services:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/services/pom.xml.
+2021-03-13 08:27:48,218 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: by.grsu:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2021-03-13 08:27:48,219 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-13 08:27:48,219 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-13 08:27:48,239 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:ui:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/ui/pom.xml.
+2021-03-13 08:27:48,241 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/rest: by.grsu:rest:0.0.1-SNAPSHOT with classifier  to /rest/target/classes
+2021-03-13 08:27:48,242 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/services: by.grsu:services:0.0.1-SNAPSHOT with classifier  to /services/target/classes
+2021-03-13 08:27:48,242 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: by.grsu:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2021-03-13 08:27:48,242 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-13 08:27:48,243 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-13 08:27:48,262 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:rest:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/rest/pom.xml.
+2021-03-13 08:27:48,264 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/services: by.grsu:services:0.0.1-SNAPSHOT with classifier  to /services/target/classes
+2021-03-13 08:27:48,264 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: by.grsu:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2021-03-13 08:27:48,264 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-13 08:27:48,265 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-13 08:27:48,283 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:ui:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/ui/pom.xml.
+2021-03-13 08:27:48,285 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/rest: by.grsu:rest:0.0.1-SNAPSHOT with classifier  to /rest/target/classes
+2021-03-13 08:27:48,285 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/services: by.grsu:services:0.0.1-SNAPSHOT with classifier  to /services/target/classes
+2021-03-13 08:27:48,285 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: by.grsu:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2021-03-13 08:27:48,285 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-13 08:27:48,286 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-13 08:27:49,089 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 08:27:49,091 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 08:27:49,095 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 08:27:49,096 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 08:27:49,463 [Worker-11: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-13 08:27:49,470 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 08:27:49,475 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 08:27:49,478 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 08:27:49,479 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 08:27:49,658 [Worker-11: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-13 08:27:49,659 [Worker-11: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-13 08:27:49,664 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 08:27:49,666 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 08:27:49,669 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 08:27:49,670 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 08:27:49,693 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for by.grsu:view:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+2021-03-13 08:27:49,698 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 08:27:49,699 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 08:27:49,702 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 08:27:49,703 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 08:27:49,897 [Worker-11: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: by.grsu:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2021-03-13 08:27:49,897 [Worker-11: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-13 08:27:49,897 [Worker-11: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-13 08:27:49,903 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 08:27:49,904 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 08:27:49,907 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 08:27:49,907 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 08:27:50,021 [Worker-11: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/services: by.grsu:services:0.0.1-SNAPSHOT with classifier  to /services/target/classes
+2021-03-13 08:27:50,021 [Worker-11: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: by.grsu:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2021-03-13 08:27:50,022 [Worker-11: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-13 08:27:50,022 [Worker-11: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-13 08:27:50,026 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 08:27:50,027 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 08:27:50,029 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 08:27:50,030 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 08:27:50,153 [Worker-11: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/rest: by.grsu:rest:0.0.1-SNAPSHOT with classifier  to /rest/target/classes
+2021-03-13 08:27:50,153 [Worker-11: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/services: by.grsu:services:0.0.1-SNAPSHOT with classifier  to /services/target/classes
+2021-03-13 08:27:50,153 [Worker-11: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: by.grsu:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2021-03-13 08:27:50,154 [Worker-11: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-13 08:27:50,154 [Worker-11: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-13 08:27:50,159 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 08:27:50,160 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 08:27:50,162 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 08:27:50,163 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 08:27:51,219 [Worker-11: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-13 08:27:51,222 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 08:27:51,223 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 08:27:51,226 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 08:27:51,226 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 08:27:51,342 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 08:27:51,344 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 08:27:51,346 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 08:27:51,347 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 08:27:51,470 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 08:27:51,471 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 08:27:51,473 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 08:27:51,474 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 08:28:43,496 [Worker-20: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:api:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/api/pom.xml.
+2021-03-13 08:28:43,498 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for by.grsu:entitys:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+2021-03-13 08:28:43,864 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 08:28:43,865 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 08:28:43,868 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 08:28:43,869 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 08:28:43,996 [Worker-20: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:dao:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/dao/pom.xml.
+2021-03-13 08:28:43,999 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for by.grsu:entitys:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+2021-03-13 08:28:44,000 [Worker-20: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-13 08:28:44,054 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 08:28:44,055 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 08:28:44,056 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 08:28:44,057 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 08:28:44,156 [Worker-20: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:entitys:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/entitys/pom.xml.
+2021-03-13 08:28:44,197 [Worker-20: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:api:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/api/pom.xml.
+2021-03-13 08:28:44,201 [Worker-20: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-13 08:28:44,237 [Worker-20: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:dao:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/dao/pom.xml.
+2021-03-13 08:28:44,240 [Worker-20: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-13 08:28:44,241 [Worker-20: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-13 08:28:44,373 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 08:28:44,374 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 08:28:44,375 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 08:28:44,376 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 08:28:44,451 [Worker-20: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: main:main:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/main/pom.xml.
+2021-03-13 08:28:44,453 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for by.grsu:view:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+2021-03-13 08:28:44,502 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 08:28:44,503 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 08:28:44,505 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 08:28:44,505 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 08:28:44,582 [Worker-20: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:entitys:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/entitys/pom.xml.
+2021-03-13 08:28:44,591 [Worker-20: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: by.grsu:platformicro:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/pom.xml.
+2021-03-13 08:28:44,626 [Worker-20: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:api:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/api/pom.xml.
+2021-03-13 08:28:44,629 [Worker-20: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-13 08:28:44,648 [Worker-20: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:dao:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/dao/pom.xml.
+2021-03-13 08:28:44,650 [Worker-20: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-13 08:28:44,651 [Worker-20: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-13 08:28:44,665 [Worker-20: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:entitys:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/entitys/pom.xml.
+2021-03-13 08:28:45,056 [Worker-2: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-13 08:28:45,062 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 08:28:45,065 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 08:28:45,067 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 08:28:45,068 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 08:28:45,140 [Worker-2: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-13 08:28:45,141 [Worker-2: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-13 08:28:45,145 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 08:28:45,146 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 08:28:45,148 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 08:28:45,149 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 08:28:45,208 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 08:28:45,209 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 08:28:45,210 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 08:28:45,211 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 08:28:45,331 [Worker-2: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:rest:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/rest/pom.xml.
+2021-03-13 08:28:45,332 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for by.grsu:services:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+2021-03-13 08:28:45,395 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 08:28:45,396 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 08:28:45,399 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 08:28:45,399 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 08:28:45,487 [Worker-2: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:services:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/services/pom.xml.
+2021-03-13 08:28:45,492 [Worker-2: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: by.grsu:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2021-03-13 08:28:45,492 [Worker-2: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-13 08:28:45,493 [Worker-2: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-13 08:28:45,518 [Worker-2: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:rest:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/rest/pom.xml.
+2021-03-13 08:28:45,521 [Worker-2: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/services: by.grsu:services:0.0.1-SNAPSHOT with classifier  to /services/target/classes
+2021-03-13 08:28:45,521 [Worker-2: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: by.grsu:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2021-03-13 08:28:45,522 [Worker-2: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-13 08:28:45,522 [Worker-2: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-13 08:28:45,617 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 08:28:45,618 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 08:28:45,619 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 08:28:45,620 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 08:28:45,844 [Worker-2: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:ui:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/ui/pom.xml.
+2021-03-13 08:28:45,851 [Worker-2: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/rest: by.grsu:rest:0.0.1-SNAPSHOT with classifier  to /rest/target/classes
+2021-03-13 08:28:45,852 [Worker-2: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/services: by.grsu:services:0.0.1-SNAPSHOT with classifier  to /services/target/classes
+2021-03-13 08:28:45,852 [Worker-2: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: by.grsu:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2021-03-13 08:28:45,852 [Worker-2: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-13 08:28:45,852 [Worker-2: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-13 08:28:45,914 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 08:28:45,915 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 08:28:45,917 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 08:28:45,917 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 08:28:46,398 [Worker-6: Download sources and javadoc] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/services: by.grsu:services:0.0.1-SNAPSHOT with classifier  to /services/target/classes
+2021-03-13 08:28:46,398 [Worker-6: Download sources and javadoc] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: by.grsu:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2021-03-13 08:28:46,399 [Worker-6: Download sources and javadoc] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-13 08:28:46,399 [Worker-6: Download sources and javadoc] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-13 08:28:46,403 [Worker-6: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for by.grsu:services:0.0.1-SNAPSHOT
+org.eclipse.core.runtime.CoreException: Could not resolve artifact by.grsu:services:jar:sources:0.0.1-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:304)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2021-03-13 08:28:46,456 [Worker-19: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:ui:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/ui/pom.xml.
+2021-03-13 08:28:46,464 [Worker-19: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/rest: by.grsu:rest:0.0.1-SNAPSHOT with classifier  to /rest/target/classes
+2021-03-13 08:28:46,464 [Worker-19: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/services: by.grsu:services:0.0.1-SNAPSHOT with classifier  to /services/target/classes
+2021-03-13 08:28:46,464 [Worker-19: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: by.grsu:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2021-03-13 08:28:46,464 [Worker-19: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-13 08:28:46,465 [Worker-19: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-13 08:28:46,478 [Worker-19: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:entitys:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/entitys/pom.xml.
+2021-03-13 08:28:46,493 [Worker-19: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:rest:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/rest/pom.xml.
+2021-03-13 08:28:46,495 [Worker-19: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/services: by.grsu:services:0.0.1-SNAPSHOT with classifier  to /services/target/classes
+2021-03-13 08:28:46,495 [Worker-19: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: by.grsu:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2021-03-13 08:28:46,496 [Worker-19: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-13 08:28:46,496 [Worker-19: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-13 08:28:46,507 [Worker-19: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:services:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/services/pom.xml.
+2021-03-13 08:28:46,509 [Worker-19: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: by.grsu:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2021-03-13 08:28:46,509 [Worker-19: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-13 08:28:46,509 [Worker-19: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-13 08:28:46,511 [Worker-19: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: by.grsu:platformicro:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/pom.xml.
+2021-03-13 08:28:46,522 [Worker-19: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:api:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/api/pom.xml.
+2021-03-13 08:28:46,524 [Worker-19: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-13 08:28:46,539 [Worker-19: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:dao:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/dao/pom.xml.
+2021-03-13 08:28:46,541 [Worker-19: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-13 08:28:46,541 [Worker-19: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-13 08:28:47,153 [Worker-9: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-13 08:28:47,156 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 08:28:47,157 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 08:28:47,159 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 08:28:47,160 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 08:28:47,208 [Worker-9: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-13 08:28:47,208 [Worker-9: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-13 08:28:47,211 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 08:28:47,212 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 08:28:47,213 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 08:28:47,214 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 08:28:47,228 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 08:28:47,228 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 08:28:47,229 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 08:28:47,230 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 08:28:47,301 [Worker-9: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/services: by.grsu:services:0.0.1-SNAPSHOT with classifier  to /services/target/classes
+2021-03-13 08:28:47,302 [Worker-9: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: by.grsu:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2021-03-13 08:28:47,302 [Worker-9: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-13 08:28:47,302 [Worker-9: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-13 08:28:47,306 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 08:28:47,308 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 08:28:47,309 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 08:28:47,310 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 08:28:47,382 [Worker-9: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: by.grsu:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2021-03-13 08:28:47,382 [Worker-9: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-13 08:28:47,382 [Worker-9: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-13 08:28:47,385 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 08:28:47,386 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 08:28:47,387 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 08:28:47,388 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 08:28:47,496 [Worker-9: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/rest: by.grsu:rest:0.0.1-SNAPSHOT with classifier  to /rest/target/classes
+2021-03-13 08:28:47,497 [Worker-9: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/services: by.grsu:services:0.0.1-SNAPSHOT with classifier  to /services/target/classes
+2021-03-13 08:28:47,497 [Worker-9: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: by.grsu:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2021-03-13 08:28:47,497 [Worker-9: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-13 08:28:47,498 [Worker-9: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-13 08:28:47,516 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 08:28:47,517 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 08:28:47,520 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 08:28:47,521 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 08:40:01,313 [Worker-16: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 08:40:01,314 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 08:40:01,316 [Worker-16: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 08:40:01,316 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 08:40:16,485 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 08:40:16,486 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 08:40:16,489 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 08:40:16,490 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 08:46:24,745 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 08:46:24,745 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 08:46:24,746 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 08:46:24,747 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 08:48:36,695 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 08:48:36,696 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 08:48:36,698 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 08:48:36,698 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 08:49:17,701 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 08:49:17,702 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 08:49:17,703 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 08:49:17,704 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 08:49:33,658 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 08:49:33,659 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 08:49:33,660 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 08:49:33,660 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 08:52:32,814 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 08:52:32,816 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 08:52:32,818 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 08:52:32,819 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 08:53:35,654 [Worker-25: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 08:53:35,656 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 08:53:35,658 [Worker-25: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 08:53:35,659 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 09:08:16,243 [Worker-27: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 09:08:16,244 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 09:08:16,246 [Worker-27: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 09:08:16,247 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 09:08:26,694 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 09:08:26,695 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 09:08:26,698 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 09:08:26,700 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 09:09:01,483 [Worker-30: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-13 09:09:01,487 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 09:09:01,488 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 09:09:01,489 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 09:09:01,490 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 09:09:01,556 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 09:09:01,557 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 09:09:01,559 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 09:09:01,561 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 09:09:03,236 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 09:09:03,236 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 09:09:03,237 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 09:09:03,238 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 09:09:07,504 [Worker-25: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 09:09:07,505 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 09:09:07,507 [Worker-25: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 09:09:07,508 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 09:09:25,425 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 09:09:25,426 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 09:09:25,428 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 09:09:25,428 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 09:09:25,440 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 09:09:25,441 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 09:09:25,442 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 09:09:25,443 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 09:09:31,548 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 09:09:31,549 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 09:09:31,550 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 09:09:31,550 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 09:15:09,830 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 09:15:09,830 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 09:15:09,831 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 09:15:09,833 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 09:22:13,234 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-03-13 09:22:15,281 [Worker-7: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:entitys:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/entitys/pom.xml.
+2021-03-13 09:22:16,090 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 09:22:16,096 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 09:22:16,101 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 09:22:16,102 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 09:22:16,299 [Worker-7: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:api:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/api/pom.xml.
+2021-03-13 09:22:16,307 [Worker-7: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-13 09:22:16,374 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 09:22:16,375 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 09:22:16,378 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 09:22:16,380 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 09:22:16,524 [Worker-7: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:dao:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/dao/pom.xml.
+2021-03-13 09:22:16,531 [Worker-7: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-13 09:22:16,531 [Worker-7: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-13 09:22:16,639 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 09:22:16,641 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 09:22:16,643 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 09:22:16,645 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 09:22:16,735 [Worker-7: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: main:main:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/main/pom.xml.
+2021-03-13 09:22:16,742 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for by.grsu:view:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+2021-03-13 09:22:16,812 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 09:22:16,813 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 09:22:16,816 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 09:22:16,819 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 09:22:16,975 [Worker-7: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:entitys:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/entitys/pom.xml.
+2021-03-13 09:22:16,982 [Worker-7: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: by.grsu:platformicro:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/pom.xml.
+2021-03-13 09:22:17,012 [Worker-7: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:api:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/api/pom.xml.
+2021-03-13 09:22:17,017 [Worker-7: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-13 09:22:17,045 [Worker-7: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:dao:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/dao/pom.xml.
+2021-03-13 09:22:17,051 [Worker-7: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-13 09:22:17,052 [Worker-7: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-13 09:22:17,085 [Worker-7: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:entitys:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/entitys/pom.xml.
+2021-03-13 09:22:17,559 [Worker-7: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:services:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/services/pom.xml.
+2021-03-13 09:22:17,570 [Worker-7: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: by.grsu:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2021-03-13 09:22:17,571 [Worker-7: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-13 09:22:17,572 [Worker-7: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-13 09:22:17,664 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 09:22:17,668 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 09:22:17,671 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 09:22:17,672 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 09:22:18,020 [Worker-7: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:rest:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/rest/pom.xml.
+2021-03-13 09:22:18,032 [Worker-7: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/services: by.grsu:services:0.0.1-SNAPSHOT with classifier  to /services/target/classes
+2021-03-13 09:22:18,033 [Worker-7: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: by.grsu:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2021-03-13 09:22:18,033 [Worker-7: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-13 09:22:18,034 [Worker-7: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-13 09:22:18,146 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 09:22:18,147 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 09:22:18,150 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 09:22:18,167 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 09:22:18,508 [Worker-7: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:ui:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/ui/pom.xml.
+2021-03-13 09:22:18,523 [Worker-7: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/rest: by.grsu:rest:0.0.1-SNAPSHOT with classifier  to /rest/target/classes
+2021-03-13 09:22:18,524 [Worker-7: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/services: by.grsu:services:0.0.1-SNAPSHOT with classifier  to /services/target/classes
+2021-03-13 09:22:18,526 [Worker-7: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: by.grsu:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2021-03-13 09:22:18,528 [Worker-7: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-13 09:22:18,529 [Worker-7: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-13 09:22:18,632 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 09:22:18,634 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 09:22:18,637 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 09:22:18,638 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 09:22:19,429 [Worker-0: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:entitys:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/entitys/pom.xml.
+2021-03-13 09:22:19,474 [Worker-0: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:ui:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/ui/pom.xml.
+2021-03-13 09:22:19,493 [Worker-0: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/rest: by.grsu:rest:0.0.1-SNAPSHOT with classifier  to /rest/target/classes
+2021-03-13 09:22:19,494 [Worker-0: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/services: by.grsu:services:0.0.1-SNAPSHOT with classifier  to /services/target/classes
+2021-03-13 09:22:19,494 [Worker-0: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: by.grsu:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2021-03-13 09:22:19,495 [Worker-0: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-13 09:22:19,495 [Worker-0: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-13 09:22:19,583 [Worker-0: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:rest:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/rest/pom.xml.
+2021-03-13 09:22:19,587 [Worker-0: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/services: by.grsu:services:0.0.1-SNAPSHOT with classifier  to /services/target/classes
+2021-03-13 09:22:19,588 [Worker-0: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: by.grsu:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2021-03-13 09:22:19,588 [Worker-0: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-13 09:22:19,588 [Worker-0: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-13 09:22:19,619 [Worker-0: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:services:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/services/pom.xml.
+2021-03-13 09:22:19,628 [Worker-0: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: by.grsu:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2021-03-13 09:22:19,629 [Worker-0: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-13 09:22:19,629 [Worker-0: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-13 09:22:19,632 [Worker-0: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: by.grsu:platformicro:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/pom.xml.
+2021-03-13 09:22:19,675 [Worker-0: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:api:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/api/pom.xml.
+2021-03-13 09:22:19,678 [Worker-0: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-13 09:22:19,716 [Worker-0: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: main:main:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/main/pom.xml.
+2021-03-13 09:22:19,723 [Worker-0: Updating Maven Dependencies] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for by.grsu:view:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+2021-03-13 09:22:19,868 [Worker-0: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: by.grsu:dao:0.0.1-SNAPSHOT @ /home/kirill/Programming/kirill_lysykov_homeworks/platformicro/dao/pom.xml.
+2021-03-13 09:22:19,876 [Worker-0: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-13 09:22:19,877 [Worker-0: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-13 09:22:20,788 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 09:22:20,791 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 09:22:20,794 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 09:22:20,795 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 09:22:20,817 [Worker-11: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-13 09:22:20,825 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 09:22:20,827 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 09:22:20,830 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 09:22:20,831 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 09:22:20,915 [Worker-11: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-13 09:22:20,916 [Worker-11: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-13 09:22:20,925 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 09:22:20,926 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 09:22:20,929 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 09:22:20,930 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 09:22:20,945 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for by.grsu:view:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+2021-03-13 09:22:20,955 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 09:22:20,956 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 09:22:20,958 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 09:22:20,959 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 09:22:20,989 [Worker-11: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: by.grsu:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2021-03-13 09:22:20,989 [Worker-11: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-13 09:22:20,990 [Worker-11: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-13 09:22:20,996 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 09:22:20,997 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 09:22:21,000 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 09:22:21,001 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 09:22:21,024 [Worker-11: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/services: by.grsu:services:0.0.1-SNAPSHOT with classifier  to /services/target/classes
+2021-03-13 09:22:21,025 [Worker-11: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: by.grsu:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2021-03-13 09:22:21,025 [Worker-11: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-13 09:22:21,025 [Worker-11: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-13 09:22:21,029 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 09:22:21,030 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 09:22:21,032 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 09:22:21,034 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 09:22:21,062 [Worker-11: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/rest: by.grsu:rest:0.0.1-SNAPSHOT with classifier  to /rest/target/classes
+2021-03-13 09:22:21,063 [Worker-11: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/services: by.grsu:services:0.0.1-SNAPSHOT with classifier  to /services/target/classes
+2021-03-13 09:22:21,063 [Worker-11: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: by.grsu:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2021-03-13 09:22:21,063 [Worker-11: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-13 09:22:21,064 [Worker-11: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-13 09:22:21,073 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 09:22:21,075 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 09:22:21,077 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 09:22:21,078 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 09:28:43,792 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 09:28:43,796 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 09:28:43,800 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 09:28:43,801 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 09:28:48,830 [Worker-23: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-13 09:28:48,834 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 09:28:48,835 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 09:28:48,838 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 09:28:48,839 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 09:28:48,892 [Worker-23: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: by.grsu:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2021-03-13 09:28:48,893 [Worker-23: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-13 09:28:48,893 [Worker-23: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-13 09:28:48,897 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 09:28:48,898 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 09:28:48,900 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 09:28:48,901 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 09:28:48,965 [Worker-23: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/services: by.grsu:services:0.0.1-SNAPSHOT with classifier  to /services/target/classes
+2021-03-13 09:28:48,965 [Worker-23: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: by.grsu:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2021-03-13 09:28:48,966 [Worker-23: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/api: by.grsu:api:0.0.1-SNAPSHOT with classifier  to /api/target/classes
+2021-03-13 09:28:48,967 [Worker-23: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entitys: by.grsu:entitys:0.0.1-SNAPSHOT with classifier  to /entitys/target/classes
+2021-03-13 09:28:48,973 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 09:28:48,974 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 09:28:48,976 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 09:28:48,977 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 09:30:48,241 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 09:30:48,243 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 09:30:48,246 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 09:30:48,247 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 09:30:48,254 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 09:30:48,255 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-13 09:30:48,257 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-13 09:30:48,258 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
