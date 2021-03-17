@@ -1,5 +1,17 @@
 
-X	java:S106"9Replace this use of System.out or System.err by a logger.(ÏíÇıÿÿÿÿ8Ùß°¾ÿ.
-U	java:S106"9Replace this use of System.out or System.err by a logger.(ğãöå8ìüÖ¾ÿ.
+V
+java:S1854"9Remove this useless assignment to local variable "times".(³ ˆÿ8Ÿ°€„/
+X	java:S125+"<This block of commented-out lines of code should be removed.(¢†¢8‡›±ÿƒ/
+K
+java:S1121K".Extract the assignment out of this expression.(»ëØÚ8˜Ø€ÿƒ/
+{
+java:S2293S"YReplace the type specification in this constructor call with the diamond operator ("<>").(®¶½Öşÿÿÿÿ8˜Ø€ÿƒ/
+G
+java:S1481"*Remove this unused "times" local variable.(³ ˆÿ8Ÿ°€„/
+J
+java:S1604("(Make this anonymous inner class a lambda(üì·Ëûÿÿÿÿ8˜Ø€ÿƒ/
 H
 java:S1128"+Remove this unused import 'java.util.Date'.(¸…¼ü8®–Ú¾ÿ.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ÅµÖÁşÿÿÿÿ8±•†€„/
+]	java:S125-"<This block of commented-out lines of code should be removed.(ó ”±ûÿÿÿÿ8‡›±ÿƒ/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(‚‰Ÿƒûÿÿÿÿ8±•†€„/
