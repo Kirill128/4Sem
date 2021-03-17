@@ -17,10 +17,10 @@ public class Application {
                 List<List<Double>> lists = diviteToArrays(makeArray(10), threadsCount);
                 middleTime += threadsExec(lists, k);
             }
-            System.out.println("Threads count: "+threadsCount+", Middle time:"+middleTime / iMax);
             List<Double> time=new ArrayList<>(2);
-            time.add(threadsCount);
-            time.add(middleTime/iMax);
+            time.add((double)threadsCount);
+            time.add(1.0*middleTime/iMax);
+            times.add(time);
         }
 
         middleTime = 0;
@@ -28,7 +28,17 @@ public class Application {
             List<List<Double>> lists = diviteToArrays(makeArray(10), 1);
             middleTime += threadsExec(lists, k);
         }
-        System.out.println("Threads count: 1, Middle time:"+middleTime / iMax);
+        middleTime /= iMax;
+        System.out.println("Threads count: 1, Middle time:"+(middleTime));
+
+
+        List<Double> theMostFast=times.get(0);
+        for(List<Double> one:times){
+            System.out.println("Threads count: "+one.get(0)+", Middle time: "+one.get(1)+". Faster then 1 thread: "+middleTime/one.get(1));
+            if(){
+
+            }
+        }
 
     }
 
