@@ -12,5 +12,18 @@
         <maven.compiler.source>15</maven.compiler.source>
         <maven.compiler.target>15</maven.compiler.target>
     </properties>
+    <build>
+        <plugins>
 
+            <plugin>
+                <groupId>com.zenjava</groupId>
+                <artifactId>javafx-maven-plugin</artifactId>
+                <version>8.8.3</version>
+                <configuration>
+                    <mainClass>edu.grsu.lab2.App</mainClass>
+                </configuration>
+            </plugin>
+
+        </plugins>
+    </build>
 </project>
