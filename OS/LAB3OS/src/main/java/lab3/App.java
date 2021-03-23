@@ -4,13 +4,11 @@ import javafx.application.Application;
 import javafx.event.ActionEvent;
 import javafx.event.Event;
 import javafx.event.EventHandler;
-import javafx.scene.Group;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.*;
-import javafx.scene.shape.Rectangle;
 import javafx.stage.Stage;
 
 
@@ -21,6 +19,8 @@ public class App extends Application{
     private GridPane grid;
     private MyNodeBox taskBox1;
     private MyNodeBox taskBox2;
+
+    private boolean turn;
 
     @Override
     public void start(Stage primaryStage) throws Exception{
@@ -35,25 +35,37 @@ public class App extends Application{
         grid.add(taskBox2.getvBox(),taskBox2.getColumn(),taskBox2.getRow());
 
 
+
         primaryStage.setScene(new Scene(grid, windowWidth, windowHeight));
         primaryStage.show();
 
     }
-    public GridPane gridInit( int windowWidth,int windowHeight){
-        GridPane grid=new GridPane();
-        grid.setGridLinesVisible(true);
-        grid.getColumnConstraints().add(new ColumnConstraints(windowWidth/4));
-        grid.getColumnConstraints().add(new ColumnConstraints(windowWidth/4));
-        grid.getColumnConstraints().add(new ColumnConstraints(windowWidth/4));
-        grid.getColumnConstraints().add(new ColumnConstraints(windowWidth/4));
-        grid.getRowConstraints().add(new RowConstraints(windowHeight/3));
-        grid.getRowConstraints().add(new RowConstraints(windowHeight/3));
-        grid.getRowConstraints().add(new RowConstraints(windowHeight/3));
-        return grid;
+    public void strictAlternation(){
+        while (true) {
+            while (turn) ;
+                criticalRegion();
+            this.turn=true;
+            noncriticalRegion();
+        }
+    }
+    public void criticalRegion(){
+
+    }
+    public void noncriticalRegion(){
+
+    }
+    public long task1Proccess(int input){
+        if(input==1){
+            return 1;
+        }
+        return input*task1Proccess(input-1);
+    }
+
+    public int task2Proccess(char c){
+        return (int)c;
     }
 
     public MyNodeBox makeTaskGroup(String name,int row,int column){
-
         Label nameLabel=new Label(name);
         Label result=new Label("Result: ");
         TextField textField=new TextField();
@@ -73,6 +85,7 @@ public class App extends Application{
                 inputButton.setVisible(true);
                 grid.getChildren().remove(vBox);
                 grid.add(vBox,CRITICAL_PLACE_COLUMN,CRITICAL_PLACE_ROW);
+
             }
         });
 
@@ -84,6 +97,7 @@ public class App extends Application{
                 inputButton.setVisible(false);
                 grid.getChildren().remove(vBox);
                 grid.add(vBox,column,row);
+
             }
         });
         inputButton.setVisible(false);
@@ -107,40 +121,23 @@ public class App extends Application{
         );
     }
 
+    public GridPane gridInit( int windowWidth,int windowHeight){
+        GridPane grid=new GridPane();
+        grid.setGridLinesVisible(true);
+        grid.getColumnConstraints().add(new ColumnConstraints(windowWidth/4));
+        grid.getColumnConstraints().add(new ColumnConstraints(windowWidth/4));
+        grid.getColumnConstraints().add(new ColumnConstraints(windowWidth/4));
+        grid.getColumnConstraints().add(new ColumnConstraints(windowWidth/4));
+        grid.getRowConstraints().add(new RowConstraints(windowHeight/3));
+        grid.getRowConstraints().add(new RowConstraints(windowHeight/3));
+        grid.getRowConstraints().add(new RowConstraints(windowHeight/3));
+        return grid;
+    }
+
     public static void main(String[] args) {
         launch(args);
     }
 
-    private class GoToCriticalPlaceHandler implements EventHandler{
-        private TextField textField;
-        private Button goToCriticalPlaceButton;
-        private Button inputButton;
-
-        public GoToCriticalPlaceHandler(TextField textField,Button goToCritPlace,Button inputButton){
-            this.goToCriticalPlaceButton=goToCritPlace;
-            this.textField=textField;
-            this.inputButton=inputButton;
-        }
-        @Override
-        public void handle(Event event) {
-
-        }
-    }
-    private class InputHandler implements EventHandler{
-        private TextField textField;
-        private Button goToCriticalPlaceButton;
-        private Button inputButton;
-
-        public InputHandler(TextField textField,Button goToCritPlace,Button inputButton){
-            this.goToCriticalPlaceButton=goToCritPlace;
-            this.textField=textField;
-            this.inputButton=inputButton;
-        }
-        @Override
-        public void handle(Event event) {
-
-        }
-    }
 
     private class MyNodeBox{
         public MyNodeBox(Label nameLabel, Label resultLabel,
