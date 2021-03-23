@@ -1,17 +1,28 @@
-package edu.grsu.lab2;
+package sample;
+
+import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.scene.chart.BarChart;
+import javafx.scene.chart.CategoryAxis;
+import javafx.scene.chart.NumberAxis;
+import javafx.scene.chart.XYChart;
+import javafx.stage.Stage;
 
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
-public class Application {
-    public static void main(String[] args) throws InterruptedException {
-        int k=1000;
-        int iMax=10;
+public class Main extends Application {
+
+    @Override
+    public void start(Stage primaryStage) throws Exception{
+        int k=30000;
+        int iMax=100;
         List<List<Double>> times=new ArrayList<>();
         long middleTime;
 
-        for(int threadsCount = 1;threadsCount<100;threadsCount++) {
+        for(int threadsCount = 1;threadsCount<20;threadsCount++) {
             middleTime = 0;
             for (int i = 0; i < iMax; i++) {
                 List<List<Double>> lists = diviteToArrays(makeArray(10), threadsCount);
@@ -31,17 +42,32 @@ public class Application {
         middleTime /= iMax;
         System.out.println("Threads count: 1, Middle time:"+(middleTime));
 
+        times.get(0).set(1,1.0*middleTime);
+//---------------javafx work------------------------
 
-        List<Double> theMostFast=times.get(0);
+        CategoryAxis categoryAxis=new CategoryAxis();
+        categoryAxis.setLabel("Threads Count");
+
+        NumberAxis numberAxis=new NumberAxis();
+        numberAxis.setLabel("Work time(nano sec.)");
+
+        XYChart.Series series=new XYChart.Series();
         for(List<Double> one:times){
             System.out.println("Threads count: "+one.get(0)+", Middle time: "+one.get(1)+". Faster then 1 thread: "+middleTime/one.get(1));
-            if(){
-
-            }
+            series.getData().add(new XYChart.Data(String.valueOf(one.get(0)),one.get(1)));
         }
 
-    }
+        BarChart barChart=new BarChart(categoryAxis,numberAxis);
 
+        barChart.getData().add(series);
+
+
+        primaryStage.setTitle("Hello World");
+        primaryStage.setScene(new Scene(barChart, 500, 500));
+        primaryStage.show();
+
+
+    }
     public static long threadsExec(List<List<Double>> arrays,int k) throws InterruptedException {
         long startTime=System.nanoTime();
         Thread[]threads=new Thread[arrays.size()];
@@ -77,15 +103,34 @@ public class Application {
         }
     }
     public static List<List<Double>> diviteToArrays(List<Double> mainArr,int subArrCount) {
-        List<List<Double>> result = new ArrayList<>();
+        List<List<Double>> result = new ArrayList<>(subArrCount);
         if (subArrCount <= mainArr.size()){
-            int elInArr = mainArr.size() / subArrCount;
-            int elIndx = 0;
-            for (int subArrIndx = 0; subArrIndx < subArrCount - 1; subArrIndx++) {
-                List<Double> one = mainArr.subList(elIndx, elIndx = (elIndx + elInArr));
-                result.add(one);
+
+//            double calcElInArr=1.0*mainArr.size() / subArrCount;
+//            int calc=(int)calcElInArr;
+//            if(calcElInArr+0.51>=calc+1)calc++;
+//            int elInArr = calc;
+//
+//            int elIndx = 0;
+//            for (int subArrIndx = 0; subArrIndx < subArrCount - 1; subArrIndx++) {
+//                List<Double> one = mainArr.subList(elIndx, elIndx = (elIndx + elInArr));
+//                result.add(one);
+//            }
+//            result.add(mainArr.subList(elIndx, mainArr.size()));
+            //------------------
+            for(int i=0;i<subArrCount;i++){result.add(new ArrayList<>());}
+            int subListCount=subArrCount;
+            int elIndex=0;
+            for(int i=0;i<=subArrCount;i++){
+                if(i==subArrCount){
+                    i=0;
+                }
+                if(mainArr.size()<=elIndex){
+                    break;
+                }
+
+                result.get(i).add(mainArr.get(elIndex++));
             }
-            result.add(mainArr.subList(elIndx, mainArr.size()));
         }else
         {
             int i;
@@ -105,5 +150,9 @@ public class Application {
             arr.add((double)(i+20));
         }
         return arr;
+    }
+
+    public static void main(String[] args) {
+        launch(args);
     }
 }

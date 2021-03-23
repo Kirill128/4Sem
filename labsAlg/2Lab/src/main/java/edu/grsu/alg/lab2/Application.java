@@ -9,6 +9,30 @@ public class Application {
     public static int compareCount;
 
     public static void main(String[] args) {
+<<<<<<< HEAD
+        int [] array=generateIntArray(102);
+
+//        swapCount=0;
+//        compareCount=0;
+//        selectionSort(array);
+//        Arrays.stream(array).forEach(System.out::println);
+//        System.out.println("Swap Count : "+swapCount);
+//        System.out.println("Compare Count : "+compareCount);
+
+//        swapCount=0;
+//        compareCount=0;
+//        insertionSort(array);
+//        Arrays.stream(array).forEach(System.out::println);
+//        System.out.println("SwapCount : "+swapCount);
+//        System.out.println("Compare Count : "+compareCount);
+
+//        swapCount=0;
+//        compareCount=0;
+//        shekerSort(array,array.length);
+//        Arrays.stream(array).forEach(System.out::println);
+//        System.out.println("SwapCount : "+swapCount);
+//        System.out.println("Compare Count : "+compareCount);
+=======
         int [] array;//=generateIntArray(102);
         while(true){
         Scanner scanner=new Scanner(System.in);
@@ -23,6 +47,7 @@ public class Application {
         switch (scanner.nextInt()) {
             case 1:
         array=generateIntArray(amountEl);
+>>>>>>> 44b3424b1bcc7af58d3fa0f98d0e2c0cc2567d6f
         swapCount=0;
         compareCount=0;
         selectionSort(array);
@@ -77,7 +102,11 @@ public class Application {
     }
     public static void startQuickSort(int[] a, int fromIndex, int toIndex) {
         rangeCheck(a.length, fromIndex, toIndex);
+<<<<<<< HEAD
+        dualPivotQuicksort(a, fromIndex, toIndex - 1);
+=======
         dualPivotQuicksort(a, fromIndex, toIndex - 1,3);
+>>>>>>> 44b3424b1bcc7af58d3fa0f98d0e2c0cc2567d6f
     }
     private static void rangeCheck(int length, int fromIndex, int toIndex) {
         if (fromIndex > toIndex) {
@@ -89,6 +118,10 @@ public class Application {
         }
     }
 
+<<<<<<< HEAD
+    private static void dualPivotQuicksort(int[] input, int lowIndex, int highIndex) {
+        if (compareInt(highIndex,lowIndex)<=0) return;
+=======
 //    private static void dualPivotQuicksort(int[] input, int lowIndex, int highIndex) {
 //        if (compareInt(highIndex,lowIndex)<=0) return;
 //
@@ -151,6 +184,20 @@ public class Application {
             insertionSort(a);
             return;
         }
+        int pivot1=input[lowIndex];
+        int pivot2=input[highIndex];
+
+        if (compareInt(pivot1,pivot2)>0){
+            swap(input, lowIndex, highIndex);
+            pivot1=input[lowIndex];
+            pivot2=input[highIndex];
+        }
+        else if (compareInt(pivot1,pivot2)==0){
+            while (compareInt(pivot1,pivot2)==0 && compareInt(lowIndex,highIndex)<0) {
+                lowIndex++;
+                pivot1 = input[lowIndex];
+            }
+        }
         int third = len / div;
         // "medians"
         int m1 = left  + third;
@@ -212,11 +259,110 @@ public class Application {
                 }
             }
         }
-        // subarray
-        if (compareInt(pivot1 , pivot2)<0) {
-              dualPivotQuicksort(a, less, great, div);
+
+        int i=lowIndex+1;
+        int lt=lowIndex+1;
+        int gt=highIndex-1;
+
+        while (compareInt(i,gt)<=0){
+            if (compareInt(input[i], pivot1)<0){
+                swap(input, i++, lt++);
+            }
+            else if (compareInt(pivot2, input[i])<0){
+                swap(input, i, gt--);
+            }
+            else{
+                i++;
+            }
         }
-}
+
+        swap(input, lowIndex, --lt);
+        swap(input, highIndex, ++gt);
+
+        dualPivotQuicksort(input, lowIndex, lt-1);
+        dualPivotQuicksort (input, lt+1, gt-1);
+        dualPivotQuicksort(input, gt+1, highIndex);
+    }
+
+//    private static void dualPivotQuicksort(int[] a, int left,int right, int div) {
+//        int len = right - left;
+//
+//        if (compareInt(len , 27)<0) { // insertion sort for tiny array
+////            for (int i = left + 1; i <= right; i++) {
+////                for (int j = i; j > left && a[j] < a[j - 1]; j--) {
+////                    swap(a, j, j - 1);
+////                }
+////            }
+//            insertionSort(a);
+//            return;
+//        }
+//
+//        int third = len / div;
+//        // "medians"
+//        int m1 = left  + third;
+//        int m2 = right - third;
+//        if (compareInt(m1,  left)<=0) {
+//            m1 = left + 1;
+//        }
+//        if (compareInt(m2 , right)>=0) {
+//            m2 = right - 1;
+//        }
+//        if (compareInt(a[m1],  a[m2])<0) {
+//        swap(a, m1, left);
+//        swap(a, m2, right);
+//        }else {
+//        swap(a, m1, right);
+//        swap(a, m2, left);
+//        }    // pivots
+//        int pivot1 = a[left];
+//        int pivot2 = a[right];
+//        // pointers
+//        int less  = left  + 1;
+//        int great = right - 1;
+//        // sorting
+//        for (int k = less; compareInt(k,  great)<=0; k++) {
+//             if (compareInt(a[k],  pivot1)<0) {
+//                 swap(a, k, less++);
+//             }
+//             else if (compareInt(a[k] , pivot2)>0) {
+//                 while (compareInt(k , great)<0 && compareInt(a[great] , pivot2)>0) {
+//                     great--;
+//                 }
+//                 swap(a, k, great--);
+//                 if (compareInt(a[k] , pivot1)<0) {
+//                     swap(a, k, less++);
+//                 }
+//             }
+//        }
+//        // swaps
+//        int dist = great - less;
+//        if (compareInt(dist , 13)<0) {
+//            div++;
+//        }
+//         swap(a, less  - 1, left);
+//         swap(a, great + 1, right);
+//         // subarrays
+//        dualPivotQuicksort(a, left,   less - 2, div);
+//        dualPivotQuicksort(a, great + 2, right, div);
+//        // equal elements
+//        if (compareInt(dist , len - 13)>0 && compareInt(pivot1 , pivot2)!=0) {
+//            for (int k = less; compareInt(k , great)<=0; k++) {
+//                if (compareInt(a[k] , pivot1)==0) {
+//                    swap(a, k, less++);
+//                }
+//                else if (compareInt(a[k] , pivot2)==0) {
+//                    swap(a, k, great--);
+//                    if (compareInt(a[k] , pivot1)==0) {
+//                        swap(a, k, less++);
+//                    }
+//                }
+//            }
+//        }
+//        // subarray
+//        if (compareInt(pivot1 , pivot2)<0) {
+//              dualPivotQuicksort(a, less, great, div);
+//        }
+//    }
     //-------------------------------Пирамидальная Sort-------------------------------------------
 
     public static void heapSort(int arr[])

@@ -1,4 +1,37 @@
 
+<<<<<<< HEAD
+]	java:S125o"<This block of commented-out lines of code should be removed.(–á™üÿÿÿÿ8–³Ë„/
+[
+java:S1197À"8Move the array designator from the variable to the type.(¯Æã„úÿÿÿÿ8´š¡¨ƒ/
+Q
+java:S1444"/Make this "public static swapCount" field final(•ËÖÚùÿÿÿÿ8‡¨–§ƒ/
+U	java:S106%"9Replace this use of System.out or System.err by a logger.(ÔÛíì8µÆàªƒ/
+X	java:S125"<This block of commented-out lines of code should be removed.(×ÃÚÒ8İãÜ©ƒ/
+w
+java:S1104"UMake swapCount a static final constant or non-public and provide accessors if needed.(•ËÖÚùÿÿÿÿ8‡¨–§ƒ/
+X	java:S125"<This block of commented-out lines of code should be removed.(×ÃÚÒ8øË¨ƒ/
+Z	java:S106&"9Replace this use of System.out or System.err by a logger.(­½ç®ıÿÿÿÿ8µÆàªƒ/
+Y
+java:S3972>"7Move this "if" to a new line or add the missing "else".(ûÌşøÿÿÿÿ8´š¡¨ƒ/
+U	java:S106-"9Replace this use of System.out or System.err by a logger.(ÔÛíì8…íµªƒ/
+F
+java:S1659ë"#Declare "right" on a separate line.(öÏÑÿÿÿÿÿ8´š¡¨ƒ/
+Y	java:S125˜"<This block of commented-out lines of code should be removed.(öÑƒ8´š¡¨ƒ/
+[
+java:S1197Ò"8Move the array designator from the variable to the type.(–ÂÔâıÿÿÿÿ8´š¡¨ƒ/
+X	java:S125$"<This block of commented-out lines of code should be removed.(³âÃ8îğ„/
+z
+java:S1104"XMake compareCount a static final constant or non-public and provide accessors if needed.(Ãé‘¯ùÿÿÿÿ8”ïí§ƒ/
+A
+java:S2119¤"Save and re-use this "Random".(šŸ«íøÿÿÿÿ8´š¡¨ƒ/
+Z	java:S106."9Replace this use of System.out or System.err by a logger.(­½ç®ıÿÿÿÿ8…íµªƒ/
+X	java:S125,"<This block of commented-out lines of code should be removed.(³âÃ8°Ÿğ„/
+X	java:S125"<This block of commented-out lines of code should be removed.(×ÃÚÒ8½€ç©ƒ/
+T
+java:S1444"2Make this "public static compareCount" field final(Ãé‘¯ùÿÿÿÿ8”ïí§ƒ/
+T
+java:S3972@"7Move this "if" to a new line or add the missing "else".(‹³³€8´š¡¨ƒ/
+=======
 U	java:S106"9Replace this use of System.out or System.err by a logger.(«Åü8ä‰ç„/
 ]	java:S125\"<This block of commented-out lines of code should be removed.(„Ó¾½ùÿÿÿÿ8ÂˆÒŸ„/
 G
@@ -52,3 +85,4 @@ Z	java:S1061"9Replace this use of System.out or System.err by a logger.(­½ç®ıÿ
 C	java:S131""Add a default case to this switch.(çëëâùÿÿÿÿ8şÙÑŸ„/
 [
 java:S1197Ş"8Move the array designator from the variable to the type.(¯Æã„úÿÿÿÿ8ÂˆÒŸ„/
+>>>>>>> 44b3424b1bcc7af58d3fa0f98d0e2c0cc2567d6f
