@@ -6,6 +6,8 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="/home/kirill/Programming/kirill_lysykov_homeworks"/>
+			<item value="/home/kirill/Programming/Shop"/>
 			<item value="/home/kirill/Programming/kirill_lysykov_homeworks/platformicro"/>
 			<item value="/home/kirill/Programming/4Sem/Java/platformicro"/>
 			<item value="/home/kirill/Programming/4Sem/Java/platformicro/api/src"/>

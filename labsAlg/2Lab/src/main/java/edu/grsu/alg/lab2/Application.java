@@ -138,6 +138,7 @@ public class Application {
 //        dualPivotQuicksort(input, gt+1, rightIndex);
 //
 //    }
+
     private static void dualPivotQuicksort(int[] a, int left,int right, int div) {
         int len = right - left;
 
@@ -150,7 +151,6 @@ public class Application {
             insertionSort(a);
             return;
         }
-
         int third = len / div;
         // "medians"
         int m1 = left  + third;
