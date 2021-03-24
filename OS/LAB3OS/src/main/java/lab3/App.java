@@ -1,16 +1,20 @@
 package lab3;
 
 import javafx.application.Application;
+import javafx.concurrent.Task;
 import javafx.event.ActionEvent;
 import javafx.event.Event;
 import javafx.event.EventHandler;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.control.Menu;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.*;
 import javafx.stage.Stage;
 
+import javax.xml.ws.handler.Handler;
+import java.util.EventListener;
 
 
 public class App extends Application{
@@ -20,7 +24,7 @@ public class App extends Application{
     private MyNodeBox taskBox1;
     private MyNodeBox taskBox2;
 
-    private boolean turn;
+    private volatile boolean someInCriticalPlace;
 
     @Override
     public void start(Stage primaryStage) throws Exception{
@@ -29,30 +33,75 @@ public class App extends Application{
 
         this.grid=gridInit(800,600);
 
-        this.taskBox1=makeTaskGroup("task 1",0,0);
-        this.taskBox2=makeTaskGroup("task 2",2,0);
+        this.taskBox1=makeTaskGroup("Task 1", 0, 0, new TaskMaker() {
+            @Override
+            public void makeTask() {
+                task1GetResult();
+            }
+        });
+        this.taskBox2=makeTaskGroup("Task 2", 2, 0, new TaskMaker() {
+            @Override
+            public void makeTask() {
+                task2GetResult();
+            }
+        });
+
         grid.add(taskBox1.getvBox(),taskBox1.getColumn(),taskBox1.getRow());
         grid.add(taskBox2.getvBox(),taskBox2.getColumn(),taskBox2.getRow());
-
 
 
         primaryStage.setScene(new Scene(grid, windowWidth, windowHeight));
         primaryStage.show();
 
+        Thread thread1=new Thread(new Runnable() {
+            @Override
+            public void run() {
+                taskBox1.getGoToCriticalPlaceButton().fire();
+
+            }
+        });
+        Thread thread2=new Thread(new Runnable() {
+            @Override
+            public void run() {
+                taskBox2.getGoToCriticalPlaceButton().fire();
+            }
+        });
+
+        Button buttonStart=new Button("Start");
+        grid.add(buttonStart,3,2);
+        buttonStart.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent event) {
+                thread1.start();
+                thread2.start();
+            }
+        });
     }
-    public void strictAlternation(){
-        while (true) {
-            while (turn) ;
-                criticalRegion();
-            this.turn=true;
-            noncriticalRegion();
-        }
+
+//--------------------Strict alteration----------------------------------
+    public void strictAlternation(TaskMaker taskMaker){
+        while (this.someInCriticalPlace) {}
+        criticalRegion();
     }
+
     public void criticalRegion(){
-
+        this.someInCriticalPlace=true;
+        System.out.println("Task in critical region!!");
     }
-    public void noncriticalRegion(){
+    public void nonCriticalRegion(){
+        this.someInCriticalPlace=false;
+        System.out.println("Task in non critical region!!");
+    }
 
+//----------------------------Tasks Execute-------------------------------------
+    public void task1GetResult(){
+        int input=Integer.valueOf(taskBox1.getTextField().getText());
+        taskBox1.getResultLabel().setText("Result: "+task1Proccess(input));
+    }
+    public void task2GetResult(){
+        String input=taskBox2.getTextField().getText();
+        char c=input.toCharArray()[0];
+        taskBox2.getResultLabel().setText("Result: "+(int)c);
     }
     public long task1Proccess(int input){
         if(input==1){
@@ -61,11 +110,8 @@ public class App extends Application{
         return input*task1Proccess(input-1);
     }
 
-    public int task2Proccess(char c){
-        return (int)c;
-    }
-
-    public MyNodeBox makeTaskGroup(String name,int row,int column){
+//-----------------------------------------------------------------------
+    public MyNodeBox makeTaskGroup(String name,int row,int column,TaskMaker taskMaker){
         Label nameLabel=new Label(name);
         Label result=new Label("Result: ");
         TextField textField=new TextField();
@@ -77,27 +123,34 @@ public class App extends Application{
 
         VBox vBox=new VBox(10,nameLabel,textField,goToCriticalPlaceButton,inputButton,result);
 
+        MyNodeBox myNodeBox=new MyNodeBox(
+                nameLabel,
+                result,
+                textField,
+                goToCriticalPlaceButton,
+                inputButton,
+                vBox,
+                row,
+                column,
+                taskMaker
+        );
+        GoToCriticalRegionHandlerPaint a=new GoToCriticalRegionHandlerPaint(myNodeBox);
+        InputHandlerPaint b=new InputHandlerPaint(myNodeBox);
+        Button buttonGoto=new Button();
+        Button buttonInput=new Button();
+
+        buttonGoto.setOnAction(a);
+        buttonInput.setOnAction(b);
         goToCriticalPlaceButton.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
-                textField.setVisible(true);
-                goToCriticalPlaceButton.setVisible(false);
-                inputButton.setVisible(true);
-                grid.getChildren().remove(vBox);
-                grid.add(vBox,CRITICAL_PLACE_COLUMN,CRITICAL_PLACE_ROW);
-
+                buttonGoto.fire();
             }
         });
-
         inputButton.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
-                textField.setVisible(false);
-                goToCriticalPlaceButton.setVisible(true);
-                inputButton.setVisible(false);
-                grid.getChildren().remove(vBox);
-                grid.add(vBox,column,row);
-
+                buttonInput.fire();
             }
         });
         inputButton.setVisible(false);
@@ -109,16 +162,7 @@ public class App extends Application{
                 "-fx-border-radius: 5;" +
                 "-fx-border-color: blue;");
 
-        return new MyNodeBox(
-                nameLabel,
-                result,
-                textField,
-                goToCriticalPlaceButton,
-                inputButton,
-                vBox,
-                row,
-                column
-        );
+        return myNodeBox;
     }
 
     public GridPane gridInit( int windowWidth,int windowHeight){
@@ -138,94 +182,42 @@ public class App extends Application{
         launch(args);
     }
 
+    private class GoToCriticalRegionHandlerPaint implements EventHandler{
 
-    private class MyNodeBox{
-        public MyNodeBox(Label nameLabel, Label resultLabel,
-                         TextField textField, Button goToCriticalPlaceButton,
-                         Button inputButton, VBox vBox, int row, int column) {
-            this.nameLabel = nameLabel;
-            this.resultLabel = resultLabel;
-            this.textField = textField;
-            this.goToCriticalPlaceButton = goToCriticalPlaceButton;
-            this.inputButton = inputButton;
-            this.vBox = vBox;
-            this.row = row;
-            this.column = column;
+        public GoToCriticalRegionHandlerPaint(MyNodeBox myNodeBox) {
+            this.myNodeBox = myNodeBox;
         }
 
-        private Label nameLabel;
-        private Label resultLabel;
-        private TextField textField;
-        private Button goToCriticalPlaceButton;
-        private Button inputButton;
-        private VBox vBox;
-        private int row;
-        private int column;
+        private MyNodeBox myNodeBox;
 
+        @Override
+        public void handle(Event event) {
 
-        public int getRow() {
-            return row;
+            this.myNodeBox.getTextField().setVisible(true);
+            this.myNodeBox.goToCriticalPlaceButton.setVisible(false);
+            this.myNodeBox.inputButton.setVisible(true);
+            grid.getChildren().remove(this.myNodeBox.vBox);
+            grid.add(this.myNodeBox.vBox,CRITICAL_PLACE_COLUMN,CRITICAL_PLACE_ROW);
         }
-
-        public void setRow(int row) {
-            this.row = row;
-        }
-
-        public int getColumn() {
-            return column;
-        }
-
-        public void setColumn(int column) {
-            this.column = column;
-        }
-
-        public Label getNameLabel() {
-            return nameLabel;
-        }
-
-        public void setNameLabel(Label nameLabel) {
-            this.nameLabel = nameLabel;
-        }
-
-        public Label getResultLabel() {
-            return resultLabel;
-        }
-
-        public void setResultLabel(Label resultLabel) {
-            this.resultLabel = resultLabel;
-        }
-
-        public TextField getTextField() {
-            return textField;
-        }
-
-        public void setTextField(TextField textField) {
-            this.textField = textField;
-        }
-
-        public Button getGoToCriticalPlaceButton() {
-            return goToCriticalPlaceButton;
-        }
-
-        public void setGoToCriticalPlaceButton(Button goToCriticalPlaceButton) {
-            this.goToCriticalPlaceButton = goToCriticalPlaceButton;
-        }
-
-        public Button getInputButton() {
-            return inputButton;
-        }
-
-        public void setInputButton(Button inputButton) {
-            this.inputButton = inputButton;
-        }
-
-        public VBox getvBox() {
-            return vBox;
-        }
-
-        public void setvBox(VBox vBox) {
-            this.vBox = vBox;
-        }
-
     }
+    private class InputHandlerPaint implements EventHandler {
+        public InputHandlerPaint(MyNodeBox myNodeBox) {
+            this.myNodeBox = myNodeBox;
+        }
+
+        private MyNodeBox myNodeBox;
+        @Override
+        public void handle(Event event) {
+
+            this.myNodeBox.textField.setVisible(false);
+            this.myNodeBox.goToCriticalPlaceButton.setVisible(true);
+            this.myNodeBox.inputButton.setVisible(false);
+            grid.getChildren().remove(this.myNodeBox.vBox);
+            grid.add(this.myNodeBox.vBox,this.myNodeBox.column,this.myNodeBox.row);
+
+            this.myNodeBox.taskMaker.makeTask();
+            nonCriticalRegion();
+        }
+    }
+1
 }

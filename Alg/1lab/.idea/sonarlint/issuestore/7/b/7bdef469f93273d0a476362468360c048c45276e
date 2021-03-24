@@ -1,29 +1,0 @@
-
-m	java:S117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ô ¼£8ĞŸÂ¿ı.
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿ8©É¿ı.
-m	java:S117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ô ¼£8©ıÁ¿ı.
-v
-java:S1488L"YImmediately return this expression instead of assigning it to the temporary variable "a".(Ğ°áã8ê¿‘¿ı.
-T	java:S106="9Replace this use of System.out or System.err by a logger.(ÛÍ"8ê¿‘¿ı.
-{
-java:S2293	"YReplace the type specification in this constructor call with the diamond operator ("<>").(ŠÂÃıÿÿÿÿ8Õ³­¿ı.
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(ÆÖ¡ııÿÿÿÿ8Õ³­¿ı.
-U	java:S106O"9Replace this use of System.out or System.err by a logger.(çÒ–×8ê¿‘¿ı.
-I
-java:S1612",Replace this lambda with a method reference.(ŠçÜ 8Õ³­¿ı.
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ıòæşÿÿÿÿ8É“«¾ı.
-U	java:S106"9Replace this use of System.out or System.err by a logger.(ä±ÄÇ8üˆô¾ı.
-U	java:S106C"9Replace this use of System.out or System.err by a logger.(¼–ûó8ê¿‘¿ı.
-{
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(à¶ëÌşÿÿÿÿ8É“«¾ı.
-j	java:S100 "NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ô ¼£8¯¤¾ı.
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(ÆÖ¡ııÿÿÿÿ8©É¿ı.
-J
-java:S1604"(Make this anonymous inner class a lambda(Šİ…îúÿÿÿÿ8”îÆ¾ı.
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¶Ä€ö
-Z	java:S106E"9Replace this use of System.out or System.err by a logger.(™ş‡üÿÿÿÿ8ê¿‘¿ı.
-m	java:S117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ô ¼£8¯¤¾ı.
-Z	java:S1066"9Replace this use of System.out or System.err by a logger.(“ê‡Øüÿÿÿÿ8ê¿‘¿ı.
-Z	java:S1069"9Replace this use of System.out or System.err by a logger.(İò¸«ûÿÿÿÿ8ê¿‘¿ı.
-L
-java:S1611"/Remove the parentheses around the "a" parameter(ŠçÜ 8Õ³­¿ı.
