@@ -1,16 +1,10 @@
 package lab3;
 
-public class Task1 implements Runnable,ITask {
+public class Task1 implements ITask {
     private MyNodeBox myNodeBox;
 
     public Task1(MyNodeBox myNodeBox) {
         this.myNodeBox = myNodeBox;
-    }
-
-    @Override
-    public void run() {
-        this.myNodeBox.getGoToCriticalPlaceButton().fire();
-//        makeTask();
     }
 
     @Override

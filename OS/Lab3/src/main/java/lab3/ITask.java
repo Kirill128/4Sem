@@ -1,6 +1,6 @@
 package lab3;
 
-public interface ITask {
+public interface ITask  {
     void makeTask();
     void setMyNodeBox(MyNodeBox myNodeBox);
     MyNodeBox getMyNodeBox();
