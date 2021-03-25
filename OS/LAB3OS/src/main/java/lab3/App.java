@@ -94,89 +94,10 @@ public class App extends Application{
     }
 
 //----------------------------Tasks Execute-------------------------------------
-    public void task1GetResult(){
-        int input=Integer.valueOf(taskBox1.getTextField().getText());
-        taskBox1.getResultLabel().setText("Result: "+task1Proccess(input));
-    }
-    public void task2GetResult(){
-        String input=taskBox2.getTextField().getText();
-        char c=input.toCharArray()[0];
-        taskBox2.getResultLabel().setText("Result: "+(int)c);
-    }
-    public long task1Proccess(int input){
-        if(input==1){
-            return 1;
-        }
-        return input*task1Proccess(input-1);
-    }
+
 
 //-----------------------------------------------------------------------
-    public MyNodeBox makeTaskGroup(String name,int row,int column,TaskMaker taskMaker){
-        Label nameLabel=new Label(name);
-        Label result=new Label("Result: ");
-        TextField textField=new TextField();
-        textField.setMaxWidth(150);
-        textField.setVisible(false);
 
-        Button inputButton = new Button("Some input");
-        Button goToCriticalPlaceButton = new Button("Go To Critical place");
-
-        VBox vBox=new VBox(10,nameLabel,textField,goToCriticalPlaceButton,inputButton,result);
-
-        MyNodeBox myNodeBox=new MyNodeBox(
-                nameLabel,
-                result,
-                textField,
-                goToCriticalPlaceButton,
-                inputButton,
-                vBox,
-                row,
-                column,
-                taskMaker
-        );
-        GoToCriticalRegionHandlerPaint a=new GoToCriticalRegionHandlerPaint(myNodeBox);
-        InputHandlerPaint b=new InputHandlerPaint(myNodeBox);
-        Button buttonGoto=new Button();
-        Button buttonInput=new Button();
-
-        buttonGoto.setOnAction(a);
-        buttonInput.setOnAction(b);
-        goToCriticalPlaceButton.setOnAction(new EventHandler<ActionEvent>() {
-            @Override
-            public void handle(ActionEvent event) {
-                buttonGoto.fire();
-            }
-        });
-        inputButton.setOnAction(new EventHandler<ActionEvent>() {
-            @Override
-            public void handle(ActionEvent event) {
-                buttonInput.fire();
-            }
-        });
-        inputButton.setVisible(false);
-
-        vBox.setStyle("-fx-padding: 10;" +
-                "-fx-border-style: solid inside;" +
-                "-fx-border-width: 2;" +
-                "-fx-border-insets: 5;" +
-                "-fx-border-radius: 5;" +
-                "-fx-border-color: blue;");
-
-        return myNodeBox;
-    }
-
-    public GridPane gridInit( int windowWidth,int windowHeight){
-        GridPane grid=new GridPane();
-        grid.setGridLinesVisible(true);
-        grid.getColumnConstraints().add(new ColumnConstraints(windowWidth/4));
-        grid.getColumnConstraints().add(new ColumnConstraints(windowWidth/4));
-        grid.getColumnConstraints().add(new ColumnConstraints(windowWidth/4));
-        grid.getColumnConstraints().add(new ColumnConstraints(windowWidth/4));
-        grid.getRowConstraints().add(new RowConstraints(windowHeight/3));
-        grid.getRowConstraints().add(new RowConstraints(windowHeight/3));
-        grid.getRowConstraints().add(new RowConstraints(windowHeight/3));
-        return grid;
-    }
 
     public static void main(String[] args) {
         launch(args);
