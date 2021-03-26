@@ -15,8 +15,10 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        int k=100000;
+
+        int k=10000;
         int iMax=100;
+
         List<List<Double>> times=new ArrayList<>();
         long middleTime;
 
@@ -104,17 +106,6 @@ public class Main extends Application {
         List<List<Double>> result = new ArrayList<>(subArrCount);
         if (subArrCount <= mainArr.size()){
 
-//            double calcElInArr=1.0*mainArr.size() / subArrCount;
-//            int calc=(int)calcElInArr;
-//            if(calcElInArr+0.51>=calc+1)calc++;
-//            int elInArr = calc;
-//
-//            int elIndx = 0;
-//            for (int subArrIndx = 0; subArrIndx < subArrCount - 1; subArrIndx++) {
-//                List<Double> one = mainArr.subList(elIndx, elIndx = (elIndx + elInArr));
-//                result.add(one);
-//            }
-//            result.add(mainArr.subList(elIndx, mainArr.size()));
             //------------------
             for(int i=0;i<subArrCount;i++){result.add(new ArrayList<>());}
             int subListCount=subArrCount;
@@ -129,7 +120,8 @@ public class Main extends Application {
 
                 result.get(i).add(mainArr.get(elIndex++));
             }
-        }else
+        }
+        else
         {
             int i;
             for(i=0;i<mainArr.size();i++){
@@ -152,5 +144,6 @@ public class Main extends Application {
 
     public static void main(String[] args) {
         launch(args);
+
     }
 }
