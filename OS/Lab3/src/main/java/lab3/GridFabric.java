@@ -10,10 +10,9 @@ public class GridFabric {
     public static MyGrid makeGrid(){
         GridPane grid=new GridPane();
         grid.setGridLinesVisible(true);
-        grid.getColumnConstraints().add(new ColumnConstraints(windowWidth/4));
-        grid.getColumnConstraints().add(new ColumnConstraints(windowWidth/4));
-        grid.getColumnConstraints().add(new ColumnConstraints(windowWidth/4));
-        grid.getColumnConstraints().add(new ColumnConstraints(windowWidth/4));
+        grid.getColumnConstraints().add(new ColumnConstraints(windowWidth/3));
+        grid.getColumnConstraints().add(new ColumnConstraints(windowWidth/3));
+        grid.getColumnConstraints().add(new ColumnConstraints(windowWidth/3));
         grid.getRowConstraints().add(new RowConstraints(windowHeight/3));
         grid.getRowConstraints().add(new RowConstraints(windowHeight/3));
         grid.getRowConstraints().add(new RowConstraints(windowHeight/3));

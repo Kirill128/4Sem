@@ -6,7 +6,7 @@ public class MyGrid {
     public static final int CRITICAL_PLACE_ROW=1;
     public static final int CRITICAL_PLACE_COLUMN=2;
     private  GridPane grid;
-    private volatile Boolean someInCriticalPlace;
+    private  boolean someInCriticalPlace;
 
     public MyGrid(GridPane grid, Boolean someInCriticalPlace) {
         this.grid = grid;

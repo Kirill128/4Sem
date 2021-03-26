@@ -19,7 +19,6 @@ public class MyNodeBoxFabric {
 
         Button inputButton = new Button(" Input ");
         Button goToCriticalPlaceButton = new Button("Go To Critical place");
-        goToCriticalPlaceButton.setVisible(false);
 
         VBox vBox=new VBox(10,nameLabel,textField,goToCriticalPlaceButton,inputButton,result);
 

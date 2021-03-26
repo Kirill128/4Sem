@@ -2,7 +2,7 @@ package lab3;
 
 public class Task1 implements ITask {
     private MyNodeBox myNodeBox;
-    public boolean inCriticalRegion;
+
     public Task1(MyNodeBox myNodeBox) {
         this.myNodeBox = myNodeBox;
     }
@@ -24,15 +24,6 @@ public class Task1 implements ITask {
     @Override
     public MyNodeBox getMyNodeBox() {
         return myNodeBox;
-    }
-
-    @Override
-    public boolean isInCriticalRegion() {
-        return this.inCriticalRegion;
-    }
-    @Override
-    public void setIsInCriticalRegion(boolean isInCriticalRegion) {
-        this.inCriticalRegion=isInCriticalRegion;
     }
 
     @Override
