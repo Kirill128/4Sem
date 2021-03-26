@@ -5,8 +5,8 @@ import javafx.scene.layout.GridPane;
 public class MyGrid {
     public static final int CRITICAL_PLACE_ROW=1;
     public static final int CRITICAL_PLACE_COLUMN=2;
-    private volatile GridPane grid;
-    private volatile Boolean someInCriticalPlace;
+    private  GridPane grid;
+    private  Boolean someInCriticalPlace;
 
     public MyGrid(GridPane grid, Boolean someInCriticalPlace) {
         this.grid = grid;
