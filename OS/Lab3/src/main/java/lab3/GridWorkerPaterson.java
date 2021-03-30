@@ -42,11 +42,16 @@ public class GridWorkerPaterson extends Application {
         Thread thread=new Thread(new Runnable() {
             @Override
             public void run() {
+                while(true){
+                    enterRegion(0);
+                    enterRegion(1);
+                }
             }
         });
         startButton.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
+
                 thread.start();
             }
         });
@@ -58,26 +63,17 @@ public class GridWorkerPaterson extends Application {
         interested[process]=1;
         turn=process;
         while(turn==process && interested[other]==1){}
+        criticalRegion(process);
     }
     public void leaveRegion(int process){
+        nonCriticalRegion(process);
         interested[process]=0;
     }
 
     //-------------------------Strict alteration-------------------------
-    private void strictAlt1(){
-        while (this.grid.isSomeInCriticalPlace()){}
-        criticalRegion(task1);
-        grid.setSomeInCriticalPlace(true);
-        nonCriticalRegion1(task1);
-    }
-    private void strictAlt2(){
-        while (!this.grid.isSomeInCriticalPlace()){}
-        criticalRegion(task2);
-        grid.setSomeInCriticalPlace(false);
-        nonCriticalRegion2(task2);
-    }
+    public void criticalRegion(int process){
+        ITask task=(process==1)? task2:task1;
 
-    public void criticalRegion(ITask task){
         System.out.println(task.getMyNodeBox().getNameLabel().getText()+" in critical region!");
         task.getMyNodeBox().getTextField().setVisible(true);
         task.getMyNodeBox().getGoToCriticalPlaceButton().setVisible(false);
@@ -91,7 +87,9 @@ public class GridWorkerPaterson extends Application {
         task.makeTask();
         Platform.runLater(()->task.getMyNodeBox().getResultLabel().setText(task.getMyNodeBox().getResultString()));
     }
-    public void nonCriticalRegion1(ITask task){
+    public void nonCriticalRegion(int process){
+        ITask task=(process==1)? task2:task1;
+
         System.out.println(task.getMyNodeBox().getNameLabel().getText()+" in non critical region!");
         task.getMyNodeBox().getTextField().setVisible(false);
         task.getMyNodeBox().getGoToCriticalPlaceButton().setVisible(true);
@@ -102,21 +100,8 @@ public class GridWorkerPaterson extends Application {
             e.printStackTrace();
         }
 
-        strictAlt2();
     }
-    public void nonCriticalRegion2(ITask task){
-        System.out.println(task.getMyNodeBox().getNameLabel().getText()+" in non critical region!");
-        task.getMyNodeBox().getTextField().setVisible(false);
-        task.getMyNodeBox().getGoToCriticalPlaceButton().setVisible(true);
-        task.getMyNodeBox().getInputButton().setVisible(false);
-        try {
-            Thread.sleep(1000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
 
-        strictAlt1();
-    }
 
 
 }

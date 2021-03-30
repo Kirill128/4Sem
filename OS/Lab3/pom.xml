@@ -27,7 +27,7 @@
                 <artifactId>javafx-maven-plugin</artifactId>
                 <version>0.0.5</version>
                 <configuration>
-                    <mainClass>lab3.GridWorker</mainClass>
+                    <mainClass>lab3.GridWorkerStrictAlt</mainClass>
                 </configuration>
             </plugin>
         </plugins>
