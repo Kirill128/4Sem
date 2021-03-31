@@ -24,6 +24,8 @@ public class GridWorkerPaterson extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
+        this.interested=new int[N];
+
         this.grid=GridFabric.makeGrid();
         this.task1=new Task1(MyNodeBoxFabric.makeMyNodeBox("Task 1",0,1));
         this.task2=new Task2(MyNodeBoxFabric.makeMyNodeBox("Task 2",2,1));
@@ -44,7 +46,9 @@ public class GridWorkerPaterson extends Application {
             public void run() {
                 while(true){
                     enterRegion(0);
+                    leaveRegion(0);
                     enterRegion(1);
+                    leaveRegion(1);
                 }
             }
         });
@@ -72,7 +76,7 @@ public class GridWorkerPaterson extends Application {
 
     //-------------------------Strict alteration-------------------------
     public void criticalRegion(int process){
-        ITask task=(process==1)? task2:task1;
+        ITask task= (process==1)? task2:task1;
 
         System.out.println(task.getMyNodeBox().getNameLabel().getText()+" in critical region!");
         task.getMyNodeBox().getTextField().setVisible(true);
