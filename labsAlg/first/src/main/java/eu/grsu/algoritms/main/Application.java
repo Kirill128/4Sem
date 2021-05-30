@@ -12,7 +12,6 @@ public class Application {
 //        BigRectangle bigLowRectangle=new BigRectangle(24,26);
         BigRectangle bigLowRectangle=new BigRectangle(1,5);
 
-
         List<LowRectangle> lowRectangleList=Application.getInitial();
 
         System.out.println("Answer:"+bigLowRectangle.canConsistOf(lowRectangleList));

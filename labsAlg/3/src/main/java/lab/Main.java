@@ -27,7 +27,7 @@ public class Main {
         Scanner scanner=new Scanner(System.in);
         return scanner.next().toCharArray();
     }
-
+//T(n)=T(n-1)+40+k*6
     public static boolean canConvert(char[] receiveArray,int firstXPositionOfReceiveArray,int lastXPositionOfReceiveArray){
         globalI++;
         char[] postArray=new char[receiveArray.length];

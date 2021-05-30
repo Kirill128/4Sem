@@ -48,7 +48,7 @@ public class State {
 
             setState(id, PhilosopherState.EATING);
 
-                printState(id);
+//                printState(id);
         } catch (InterruptedException e) {
             e.printStackTrace();
         } finally {

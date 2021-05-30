@@ -22,7 +22,7 @@ public class Fork {
         }
 
         long t = System.nanoTime();
-            System.out.println(t + ": Fork " + id + " is taken");
+//            System.out.println(t + ": Fork " + id + " is taken");
             Platform.runLater(new Runnable() {
                 @Override
                 public void run() {
@@ -35,7 +35,7 @@ public class Fork {
 
     public void put() {
         long t = System.nanoTime();
-            System.out.println(t + ": Fork " + id + " is put");
+//            System.out.println(t + ": Fork " + id + " is put");
             Platform.runLater(new Runnable() {
                 @Override
                 public void run() {
