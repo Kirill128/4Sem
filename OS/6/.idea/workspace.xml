@@ -4,7 +4,80 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2c8545a-7d3a-41ee-87f9-569deb00b262" name="Default Changelist" comment="" />
+    <list default="true" id="d2c8545a-7d3a-41ee-87f9-569deb00b262" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lab/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lab/algs/BiasAlg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lab/algs/impl/ListAlgImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lab/opmemory/OperationMemory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lab/process/ProcessInAlg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5/javafx-sdk-11.0.2/legal/javafx.base/ADDITIONAL_LICENSE_INFO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5/javafx-sdk-11.0.2/legal/javafx.base/ASSEMBLY_EXCEPTION" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5/javafx-sdk-11.0.2/legal/javafx.base/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5/javafx-sdk-11.0.2/legal/javafx.controls/ADDITIONAL_LICENSE_INFO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5/javafx-sdk-11.0.2/legal/javafx.controls/ASSEMBLY_EXCEPTION" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5/javafx-sdk-11.0.2/legal/javafx.controls/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5/javafx-sdk-11.0.2/legal/javafx.fxml/ADDITIONAL_LICENSE_INFO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5/javafx-sdk-11.0.2/legal/javafx.fxml/ASSEMBLY_EXCEPTION" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5/javafx-sdk-11.0.2/legal/javafx.fxml/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5/javafx-sdk-11.0.2/legal/javafx.graphics/ADDITIONAL_LICENSE_INFO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5/javafx-sdk-11.0.2/legal/javafx.graphics/ASSEMBLY_EXCEPTION" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5/javafx-sdk-11.0.2/legal/javafx.graphics/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5/javafx-sdk-11.0.2/legal/javafx.graphics/jpeg_fx.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5/javafx-sdk-11.0.2/legal/javafx.media/ADDITIONAL_LICENSE_INFO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5/javafx-sdk-11.0.2/legal/javafx.media/ASSEMBLY_EXCEPTION" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5/javafx-sdk-11.0.2/legal/javafx.media/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5/javafx-sdk-11.0.2/legal/javafx.media/applecoreaudio.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5/javafx-sdk-11.0.2/legal/javafx.media/glib.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5/javafx-sdk-11.0.2/legal/javafx.media/gstreamer.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5/javafx-sdk-11.0.2/legal/javafx.media/libffi.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5/javafx-sdk-11.0.2/legal/javafx.swing/ADDITIONAL_LICENSE_INFO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5/javafx-sdk-11.0.2/legal/javafx.swing/ASSEMBLY_EXCEPTION" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5/javafx-sdk-11.0.2/legal/javafx.swing/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5/javafx-sdk-11.0.2/legal/javafx.web/ADDITIONAL_LICENSE_INFO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5/javafx-sdk-11.0.2/legal/javafx.web/ASSEMBLY_EXCEPTION" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5/javafx-sdk-11.0.2/legal/javafx.web/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5/javafx-sdk-11.0.2/legal/javafx.web/icu_web.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5/javafx-sdk-11.0.2/legal/javafx.web/libxml2.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5/javafx-sdk-11.0.2/legal/javafx.web/libxslt.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5/javafx-sdk-11.0.2/legal/javafx.web/webkit.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5/javafx-sdk-11.0.2/lib/javafx-swt.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5/javafx-sdk-11.0.2/lib/javafx.base.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5/javafx-sdk-11.0.2/lib/javafx.controls.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5/javafx-sdk-11.0.2/lib/javafx.fxml.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5/javafx-sdk-11.0.2/lib/javafx.graphics.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5/javafx-sdk-11.0.2/lib/javafx.media.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5/javafx-sdk-11.0.2/lib/javafx.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5/javafx-sdk-11.0.2/lib/javafx.swing.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5/javafx-sdk-11.0.2/lib/javafx.web.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5/javafx-sdk-11.0.2/lib/libavplugin-54.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5/javafx-sdk-11.0.2/lib/libavplugin-56.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5/javafx-sdk-11.0.2/lib/libavplugin-57.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5/javafx-sdk-11.0.2/lib/libavplugin-ffmpeg-56.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5/javafx-sdk-11.0.2/lib/libavplugin-ffmpeg-57.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5/javafx-sdk-11.0.2/lib/libdecora_sse.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5/javafx-sdk-11.0.2/lib/libfxplugins.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5/javafx-sdk-11.0.2/lib/libglass.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5/javafx-sdk-11.0.2/lib/libglassgtk2.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5/javafx-sdk-11.0.2/lib/libglassgtk3.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5/javafx-sdk-11.0.2/lib/libgstreamer-lite.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5/javafx-sdk-11.0.2/lib/libjavafx_font.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5/javafx-sdk-11.0.2/lib/libjavafx_font_freetype.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5/javafx-sdk-11.0.2/lib/libjavafx_font_pango.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5/javafx-sdk-11.0.2/lib/libjavafx_iio.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5/javafx-sdk-11.0.2/lib/libjfxmedia.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5/javafx-sdk-11.0.2/lib/libjfxwebkit.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5/javafx-sdk-11.0.2/lib/libprism_common.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5/javafx-sdk-11.0.2/lib/libprism_es2.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5/javafx-sdk-11.0.2/lib/libprism_sw.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5/javafx-sdk-11.0.2/lib/src.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lab/BiasAlg.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lab/OperationMemory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lab/Process.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab/process/Process.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,11 +86,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="ProjectId" id="1sCh8WysSqF5TLHwvq1dRKAdYaL" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -25,7 +105,32 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.16624366" />
+    <property name="project.structure.side.proportion" value="0.3413793" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\Programming\4Sem\OS\6\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\Programming\4Sem\OS\6\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Start" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="lab.Main" />
+      <module name="6" />
+      <option name="VM_PARAMETERS" value="--module-path G:\Programming\4Sem\OS\6\javafx-sdk-11.0.2\lib --add-modules javafx.controls,javafx.fxml" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -35,7 +140,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1620382320107</updated>
+      <workItem from="1622449969035" duration="10160000" />
+      <workItem from="1622467741460" duration="333000" />
+      <workItem from="1622468246235" duration="11175000" />
+      <workItem from="1622491422351" duration="861000" />
+      <workItem from="1622516706462" duration="6940000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="this.processes" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

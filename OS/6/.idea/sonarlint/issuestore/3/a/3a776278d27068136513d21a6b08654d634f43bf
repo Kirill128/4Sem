@@ -1,0 +1,19 @@
+
+G
+java:S1612 ",Replace this lambda with a method reference.(ÈäÎïþÿÿÿÿ
+g
+java:S3776#"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(ï³Ì
+E
+java:S6212+"/Declare this local variable with "var" instead.(È™‡”
+E
+java:S62120"/Declare this local variable with "var" instead.(Ùœ¨Ï
+N
+java:S1612D",Replace this lambda with a method reference.(ÈäÎïþÿÿÿÿ8—‘¤¯œ/
+h
+java:S3776M"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(’–ËÆ
+E
+java:S6212P"/Declare this local variable with "var" instead.(Š´˜ü
+F
+java:S6212¦"/Declare this local variable with "var" instead.(ìüà·
+H
+java:S1068"3Remove this unused "operationMemory" private field.(¢¡¦^
